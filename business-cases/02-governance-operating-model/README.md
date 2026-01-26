@@ -39,6 +39,8 @@ The governance architecture is organized into three complementary layers:
 
 These layers work together to ensure alignment between strategic intent, decision-making and operational execution.
 
+![Governance Architecture – Three Layers. One Flow](./assets/visuals/governance-architecture.png)
+
 ---
 
 ## Governance Body Construction  
