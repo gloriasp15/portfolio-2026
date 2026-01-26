@@ -22,3 +22,11 @@ translating governance direction into domain-level decisions and priorities.
 
 Executes data quality controls, monitoring and remediation activities,
 ensuring decisions are translated into operational actions across systems.
+
+## Governance Roles Model (Visual)
+
+![Governance Roles Model](../visuals/roles-governance-model.png)
+
+This visual illustrates how governance roles are distributed across
+the ownership layers and how responsibilities span data production
+and data consumption across the data lifecycle.
