@@ -121,7 +121,7 @@ RACI clarifies roles:
 - who executes activities - Responsible (R)
 - who owns decisions and outcomes - Accountable (A)
 - who must be consulted before decisions are made - Consulted (C)
-- who requires visibility on progress and results - (Informed)
+- who requires visibility on progress and results - Informed (I)
 
 By applying RACI to key data quality activities, the model:
 - eliminates ownership ambiguity
