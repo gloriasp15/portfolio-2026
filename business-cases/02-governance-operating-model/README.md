@@ -133,6 +133,9 @@ RACI is applied to lifecycle steps covering both one-off validations
 and business-as-usual (BAU) data quality activities.
 RACI clarifies who executes, who owns the outcome, who provides input and who requires visibility across each phase of the data lifecycle. 
 
+- ➡️ [RACI Matrix – Data Quality Governance](./assets/raci/raci-matrix.md)
+*(See supporting artefacts for detailed role definitions and interactions.)*
+
 ---
 
 ## Effectiveness Metrics  
