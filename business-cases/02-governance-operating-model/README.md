@@ -105,9 +105,7 @@ The roles model provides the structural foundation upon which
 the RACI decision framework is applied in Step 3.
 
 ➡️ **Governance Roles Model (visual)**  
-*(see supporting artefacts for detailed role definitions and interactions)*
-Supporting artefacts:
-➡️ [Governance Roles & Responsibilities](./assets/roles/roles-and-responsibilities.md)
+*(see supporting artefacts for detailed role definitions and interactions:(./assets/roles/roles-and-responsibilities.md))*
   
 
 ---
