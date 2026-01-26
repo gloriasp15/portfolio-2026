@@ -113,15 +113,25 @@ the RACI decision framework is applied in Step 3.
 
 ### 3. RACI Enablement *(How)*
 
-Establishment of a **RACI-based decision framework** to operationalize ownership and ensure effective execution.
+Establishment of a **RACI-based decision framework** to operationalize the Governance Operating Model
+by explicitly defining execution responsibilities and decision ownership
+across the data lifecycle.
 
-RACI clarifies who executes, who owns the outcome, who provides input and who requires visibility across each phase of the data lifecycle.
+RACI clarifies roles:
+- who executes activities - Responsible (R)
+- who owns decisions and outcomes - Accountable (A)
+- who must be consulted before decisions are made - Consulted (C)
+- who requires visibility on progress and results - (Informed)
 
-**RACI roles**
-- Responsible  
-- Accountable  
-- Consulted  
-- Informed  
+By applying RACI to key data quality activities, the model:
+- eliminates ownership ambiguity
+- ensures a single accountable owner per decision
+- accelerates issue resolution
+- enables governance to operate as an execution framework rather than a policy layer
+
+RACI is applied to lifecycle steps covering both one-off validations
+and business-as-usual (BAU) data quality activities.
+RACI clarifies who executes, who owns the outcome, who provides input and who requires visibility across each phase of the data lifecycle. 
 
 ---
 
