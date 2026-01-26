@@ -65,12 +65,48 @@ Define · Control · Monitor · Decide · Fix · Validate
 
 ### 2. Ownership Levels *(Who)*
 
-Application of **ownership layers** across the lifecycle to clarify **decision rights and responsibilities**.
+Ownership is structured across three distinct layers to clearly separate
+**strategic accountability, domain ownership and execution responsibilities**
+across the data lifecycle.
 
-This step separates direction, decision-making and execution, reducing role overlap and enabling clear prioritization and escalation paths.
+This layered ownership model is designed to eliminate role overlap between
+business and technology, while ensuring continuity from decision-making
+to operational delivery.
 
-**Ownership layers**  
-Governance · Control · Execution  
+#### Ownership layers
+
+**Governance Layer – Strategic accountability**  
+Provides direction and accountability for data governance across the organization.
+This layer owns data quality strategy, standards, prioritization principles
+and escalation paths, ensuring alignment with business objectives and regulatory
+requirements.
+
+**Control Layer – Domain ownership & prioritization**  
+Owns data domains and data quality outcomes within a business context.
+This layer translates strategic direction into domain-level decisions,
+priorities and ownership, acting as the bridge between governance intent
+and execution.
+
+**Execution Layer – Operational delivery**  
+Responsible for executing data quality activities, including monitoring,
+controls implementation and issue remediation.
+This layer ensures decisions are translated into concrete actions
+across systems and processes.
+
+---
+
+### Roles aligned to ownership layers
+
+Ownership is operationalized through a defined set of **data governance roles**,
+distributed across the three layers to balance accountability, decision-making
+and execution across data production and data consumption.
+
+The roles model provides the structural foundation upon which
+the RACI decision framework is applied in Step 3.
+
+➡️ **Governance Roles Model (visual)**  
+*(see supporting artefacts for detailed role definitions and interactions)*
+  
 
 ---
 
