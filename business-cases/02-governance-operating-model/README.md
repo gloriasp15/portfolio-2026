@@ -133,7 +133,7 @@ RACI is applied to lifecycle steps covering both one-off validations
 and business-as-usual (BAU) data quality activities.
 RACI clarifies who executes, who owns the outcome, who provides input and who requires visibility across each phase of the data lifecycle. 
 
-- ➡️ [RACI Matrix – Data Quality Governance](./assets/raci/raci-matrix.md)
+➡️ [RACI Matrix – Data Quality Governance](./assets/raci/raci-matrix.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*
 
 ---
@@ -148,12 +148,15 @@ The effectiveness of the governance model is measured through governance and ope
 - Reduction of recurring data quality issues  
 - Improvement in KPI trust and adoption  
 
+➡️ [Governance Effectiveness Metrics](./assets/metrics/governance-effectiveness-kpis.md)
+*(See supporting artefacts for detailed role definitions and interactions.)*
+
 ---
 
 ## Artefacts
 
 This business case includes:
-- Governance Operating Model summary deck (PDF)  
+- Governance Operating Model snapshot slide (PDF)  
 - Data Quality lifecycle definition  
 - Ownership layers and role definitions  
 - RACI decision matrix  
