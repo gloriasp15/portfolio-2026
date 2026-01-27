@@ -66,7 +66,7 @@ Operational events are automatically ingested using low-code automation (e.g. Po
 
 This approach allows operational teams to surface events consistently while keeping system ownership local.
 
-➡️  [Low-Code Event Ingestion](logic/low-code-ingestion.md)
+➡️  ➡️ [Low-Code Event Ingestion](assets/logic/low-code-ingestion.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*  
 
 ---
@@ -82,7 +82,7 @@ This scoring establishes priority tiers (High / Medium / Low), independent of th
 
 Tiering establishes a shared operational language, ensuring that prioritization is consistent across functions and independent of local interpretation.
 
-➡️ [Event Scoring & Tiering Logic](logic/event-scoring.md)
+➡️ ➡️ [Event Scoring & Tiering Logic](assets/logic/event-scoring.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*  
 
 ---
