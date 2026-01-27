@@ -68,7 +68,7 @@ The governance body is constructed through three sequential steps.
 
 ---
 
-### 1. Lifecycle Definition *(What)*
+### B.2.1. Lifecycle Definition *(What)*
 
 Definition of an **end-to-end Data Quality lifecycle**, establishing how data-related work flows from definition to resolution.
 
@@ -79,7 +79,7 @@ Define · Control · Monitor · Decide · Fix · Validate
 
 ---
 
-### 2. Ownership Levels *(Who)*
+### B.2.2. Ownership Levels *(Who)*
 
 Ownership is structured across three distinct layers to clearly separate
 **strategic accountability, domain ownership and execution responsibilities**
@@ -125,7 +125,7 @@ the RACI decision framework is applied in Step 3.
 
 ---
 
-### 3. RACI Enablement *(How)*
+### B.2.3. RACI Enablement *(How)*
 
 Establishment of a **RACI-based decision framework** to operationalize the Governance Operating Model
 by explicitly defining execution responsibilities and decision ownership
