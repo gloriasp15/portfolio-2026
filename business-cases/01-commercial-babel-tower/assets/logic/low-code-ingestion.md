@@ -90,7 +90,14 @@ This snapshot shows how:
 
 ---
 
-## Event Normalization
+## Traceability to the Operating Model
+
+| Workflow responsibility | Operating model capability |
+|------------------------|----------------------------|
+| Event normalization    | Shared operational language |
+| Automated scoring call | Objective priority tiering |
+| Backlog persistence   | Centralized operational visibility |
+
 
 Upon ingestion, events are normalized into a **common operational event model**, ensuring consistency across sources.
 
