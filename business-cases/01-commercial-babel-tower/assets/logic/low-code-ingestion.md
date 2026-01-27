@@ -47,6 +47,15 @@ The workflow illustrates how operational events are captured, normalized and per
 
 Power Automate acts as the orchestration layer, translating heterogeneous inputs into a standardized operational event and routing them downstream for scoring, tiering and shared visibility.
 
+Typical normalized attributes include:
+- Event type  
+- Source system  
+- Timestamp  
+- Affected entity (store, SKU, channel, region)  
+- Contextual metadata  
+
+Normalization ensures that downstream scoring and tiering logic operates on a **shared language**, regardless of origin.
+
 ---
 
 ## Implementation Snapshot (Illustrative)
@@ -82,7 +91,6 @@ The example is intentionally simplified and focuses on execution logic rather th
 
 ```
 
-
 This snapshot shows how:
 - heterogeneous inputs are translated into a shared operational event
 - scoring and tiering are applied downstream
@@ -98,62 +106,16 @@ This snapshot shows how:
 | Automated scoring call | Objective priority tiering |
 | Backlog persistence   | Centralized operational visibility |
 
-
-Upon ingestion, events are normalized into a **common operational event model**, ensuring consistency across sources.
-
-Typical normalized attributes include:
-- Event type  
-- Source system  
-- Timestamp  
-- Affected entity (store, SKU, channel, region)  
-- Contextual metadata  
-
-Normalization ensures that downstream scoring and tiering logic operates on a **shared language**, regardless of origin.
-
 ---
 
-## Metadata Enrichment
+Additional contextual metadata may be appended during ingestion when available, without affecting the core event structure.
 
-Where available, additional metadata may be appended during ingestion, such as:
-- Commercial relevance indicators  
-- Channel classification  
-- Historical reference keys  
+Scoring and tiering are invoked downstream from ingestion, ensuring that prioritization logic remains independent from event capture and source systems.
 
-Enrichment is intentionally lightweight and non-blocking, preserving ingestion speed and reliability.
+This artefact demonstrates how the ingestion phase of the operating model can be executed using low-code automation, enabling standardized event capture, objective prioritization and shared operational visibility.
 
----
-
-## Relationship to Event Scoring
-
-The low-code ingestion layer does not assign priority.  
-Its sole responsibility is to ensure that events are:
-- Captured reliably  
-- Structured consistently  
-- Delivered downstream with sufficient context  
-
-Priority and relevance are determined exclusively by the **Event Scoring & Tiering Logic**, maintaining separation of concerns.
-
----
-
-## Operational Benefits
-
-This ingestion approach enables:
-- Rapid onboarding of new operational event sources  
-- Reduced dependency on IT-heavy integrations  
-- Faster time-to-value for operational coordination  
-- Scalable evolution from fragmented to mature environments  
-
----
-
-## Relationship to the Operating Model
-
-Low-code ingestion directly supports:
-- Event Scoring & Tiering  
-- Shared Operational Backlog formation  
-- E-card creation and triage  
-- Execution routing to downstream systems  
-
-Without automated ingestion, orchestration collapses into manual coordination.
+🔗 Related artefact:  
+Event Scoring & Tiering Logic
 
 ---
 
