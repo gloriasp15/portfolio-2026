@@ -39,7 +39,7 @@ The ingestion flow intentionally consolidates multiple operational phases into a
 
 ---
 
-## Power Automate Workflow (Illustrative)
+### 1.Power Automate Workflow (Illustrative)
 
 ![Power Automate – Event Ingestion Workflow](../visuals/power-automate-event-ingestion-workflow.png)
 
@@ -58,7 +58,7 @@ Normalization ensures that downstream scoring and tiering logic operates on a **
 
 ---
 
-## Implementation Snapshot (Illustrative)
+### 2.Implementation Snapshot (Illustrative)
 
 The following JSON snapshot illustrates the **end-to-end execution pattern** implemented within the low-code ingestion workflow, from event normalization to scoring and backlog persistence.
 
