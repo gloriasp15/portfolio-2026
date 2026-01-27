@@ -124,9 +124,16 @@ Metrics supporting pattern detection, continuous improvement and model refinemen
 - **Value driver**: Pattern detection and proactive operational intervention.
 
 ---
-Together, these metrics provide a coherent view of how effectively operational signals are captured, prioritized and acted upon across the Commercial Babel Tower.
+## Measurement & Governance Notes
 
-Rather than optimizing individual KPIs in isolation, the model is evaluated through the combined behaviour of signal flow, prioritization quality, execution discipline and operational learning over time.
+- KPIs should be reviewed periodically as part of operational strategy
+- The model is evaluated through the combined behaviour of signal flow, prioritization quality, execution discipline and operational learning over time
+- Metrics are intended to support **decision-making**, not control for control’s sake
+- KPI ownership follows the same accountability principles defined in the RACI model
+
+*These metrics provide a quantitative foundation to demonstrate the
+value and effectiveness of the Commercial Babel Tower model over time.*
+
 
 
 
