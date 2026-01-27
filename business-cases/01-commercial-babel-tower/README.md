@@ -4,7 +4,7 @@
 
 ---
 
-## Context
+## A. Business Context
 
 Retail operations generate critical operational events every day across retail, e-commerce and supply functions.  
 These events are produced in different systems, interpreted locally and escalated through unstructured channels.
@@ -15,7 +15,7 @@ This business case addresses how to transform fragmented operational signals int
 
 ---
 
-## Current Challenges
+### Current Challenges
 
 - Fragmented operational signals across heterogeneous systems  
 - Function-driven and subjective priority setting  
@@ -33,20 +33,22 @@ This business case addresses how to transform fragmented operational signals int
 
 ---
 
-## Business Solution
+## B. Business Solution
 
 The Commercial Babel Tower proposes an **Operational Event Orchestration** approach that enables automated multi-source event ingestion, objective prioritization through tiering and centralized operational observability.
 
 Operational events are captured at source using low-code automation, translated into a common signal format and prioritized through predefined scoring rules.  
 Tiered events are consolidated into a shared operational backlog and surfaced through e-cards for daily triage and decision-making, with execution and traceability handled downstream when required.
 
+![Operational Event Orchestration – The Commercial Babel Tower](assets/visuals/operational-event-orchestration.png)
+
 ---
 
-## Operating Model
+## B.1. Operating Model
 
 The operating model follows a sequential flow from event generation to execution and review.
 
-### 1. Event Generation  
+### B.1.1. Event Generation  
 Operational events originate independently from:
 - Retail / Stores  
 - E-commerce  
@@ -56,7 +58,7 @@ Each source operates with its own systems, timing and operational logic.
 
 ---
 
-### 2. Low-Code Ingestion  
+### B.1.2. Low-Code Ingestion  
 Events are automatically ingested using low-code automation (e.g. Power Automate), enabling:
 - Multi-source ingestion  
 - Event normalization  
@@ -64,7 +66,7 @@ Events are automatically ingested using low-code automation (e.g. Power Automate
 
 ---
 
-### 3. Event Scoring & Tiering  
+### B.1.3. Event Scoring & Tiering  
 Each event is objectively scored based on:
 - Impact  
 - Urgency  
@@ -74,7 +76,7 @@ This scoring establishes priority tiers (High / Medium / Low), independent of th
 
 ---
 
-### 4. Shared Operational Event Ledger (Babel Tower)
+### B.1.4. Shared Operational Event Ledger (Babel Tower)
 
 Tiered events are stored in a shared operational repository (e.g. Dataverse), acting as a single source of operational truth where:
 - Each event exists once  
@@ -86,7 +88,7 @@ This is the translation point where fragmented operational signals become shared
 
 ---
 
-### 5. Shared Attention & Decision (E-Cards)
+### B.1.5. Shared Attention & Decision (E-Cards)
 
 Prioritized events are surfaced through priority-based e-cards in a shared operational channel (e.g. Microsoft Teams), enabling:
 - Cross-team visibility  
@@ -97,7 +99,7 @@ Only relevant, tiered events are exposed, reducing operational noise.
 
 ---
 
-### 6. Execution, Monitoring & Review
+### B.1.6. Execution, Monitoring & Review
 
 When formal execution or traceability is required:
 - Actions are executed and tracked via ServiceNow or equivalent systems  
@@ -107,7 +109,7 @@ Events remain revisitable, monitorable and exportable for HQ review, monitoring 
 
 ---
 
-## Effectiveness Metrics
+## C. Effectiveness Metrics
 
 - Event-to-decision latency  
 - Priority accuracy  
@@ -117,7 +119,7 @@ Events remain revisitable, monitorable and exportable for HQ review, monitoring 
 
 ---
 
-## Key Takeaway
+## F. Why This Matters
 
 The Commercial Babel Tower does not centralize decisions or replace existing systems.  
 It centralizes operational relevance, priority and timing, enabling coordinated execution while preserving local ownership.
