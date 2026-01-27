@@ -2,8 +2,14 @@
 ### Decision-Driven Data Governance Framework
 
 This business case presents a **data governance operating model** designed to clarify decision ownership, enable execution and improve data quality outcomes across complex organizations.
+It is particularly relevant for complex, regulated organizations where data decisions cut across business and technology.
 
 The model focuses on **how data-related decisions are made and executed**, rather than on governance as a purely policy-driven exercise.
+
+Scope & assumptions:
+- This operating model focuses on Data Quality governance, not enterprise-wide data management
+- The model assumes federated data domains with centralized governance oversight
+- Tooling and platforms are intentionally excluded to keep the focus on decision ownership and execution
 
 ---
 
@@ -25,6 +31,12 @@ These challenges typically lead to low trust in KPIs, slow issue resolution, fri
 A **practical data governance framework** defining **decision ownership across the data–business lifecycle**, built to translate governance principles into operational execution.
 
 The model is structured as a **governance body framework**, combining lifecycle definition, ownership layers and decision enablement mechanisms.
+
+And this is how the **Governance Operating Model** would be implemented:
+
+- 1) Start with a limited set of critical data elements (KDEs)
+- 2) Roll out roles and RACI progressively, prioritizing high-impact processes
+- 3) Introduce KPIs early to track adoption and execution effectiveness
 
 ---
 
@@ -161,6 +173,29 @@ This business case includes:
 - Ownership layers and role definitions  
 - RACI decision matrix  
 - Governance effectiveness metrics  
+
+---
+
+## Impact Summary – Before vs After
+
+The table below summarizes the expected impact of the Governance Operating Model
+once implemented, highlighting how decision-making, execution and trust improve
+across the organization.
+
+| Dimension                     | Before Governance Model                | After Governance Model                     |
+|------------------------------|----------------------------------------|--------------------------------------------|
+| Decision ownership           | Unclear or shared accountability       | Single accountable owner per decision      |
+| Issue resolution speed       | Slow, escalations frequent             | Faster resolution with clear ownership    |
+| Decision lead time           | High and inconsistent                  | Reduced and predictable                   |
+| Role clarity                 | Overlapping business & tech roles      | Clear separation of roles and responsibilities |
+| Data Quality issues          | Reactive and recurring                 | Proactive detection and root-cause fixes  |
+| KPI reliability              | Low trust in reported figures          | Trusted, governed business KPIs           |
+| Governance perception        | Bureaucratic, compliance-driven        | Decision-driven, execution-oriented       |
+| Business–Tech collaboration  | Friction and misalignment              | Structured collaboration via RACI         |
+
+These improvements are measured and monitored through the governance
+effectiveness KPIs defined in the supporting artefacts.
+
 
 ---
 
