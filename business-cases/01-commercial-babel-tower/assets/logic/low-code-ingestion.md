@@ -80,6 +80,8 @@ The example is intentionally simplified and focuses on execution logic rather th
   }
 }
 
+```md
+
 This snapshot shows how:
 - heterogeneous inputs are translated into a shared operational event
 - scoring and tiering are applied downstream
