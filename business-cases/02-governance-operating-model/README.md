@@ -34,9 +34,9 @@ The model is structured as a **governance body framework**, combining lifecycle 
 
 And this is how the **Governance Operating Model** would be implemented:
 
-- 1) Start with a limited set of critical data elements (KDEs)
-- 2) Roll out roles and RACI progressively, prioritizing high-impact processes
-- 3) Introduce KPIs early to track adoption and execution effectiveness
+- 1. Start with a limited set of critical data elements (KDEs)
+- 2. Roll out roles and RACI progressively, prioritizing high-impact processes
+- 3. Introduce KPIs early to track adoption and execution effectiveness
 
 ---
 
