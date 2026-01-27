@@ -57,6 +57,14 @@ Low-code automation (e.g. Power Automate) is used to ingest events through a com
 
 The ingestion layer acts as a **translation boundary**, separating source-specific logic from downstream prioritization and decision flows.
 
+![Power Automate – Event Ingestion Workflow](../assets/visuals/power-automate-event-ingestion-workflow.png)
+
+The workflow illustrates how operational events are captured, normalized and logged using low-code automation.
+
+Power Automate acts as the orchestration layer, translating heterogeneous inputs into a standardized operational event and routing it downstream for scoring, prioritization and shared visibility.
+
+The flow intentionally consolidates multiple operational phases into a minimal number of automated steps, reducing manual handoffs while preserving clarity and control.
+
 ---
 
 ## Event Normalization
