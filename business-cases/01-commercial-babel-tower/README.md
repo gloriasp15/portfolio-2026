@@ -134,8 +134,9 @@ Rather than measuring reporting volume or tool adoption, these metrics track how
 - Resolution cycle time  
 - Recurring event patterns  
 
-➡️ 
+➡️ [Effectiveness Metrics – Commercial Babel Tower](assets/metrics/effectiveness-metrics.md)
 *(See supporting artefacts for detailed role definitions and interactions.)* 
+
 ---
 
 ## F. Why This Matters
