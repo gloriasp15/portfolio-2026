@@ -65,6 +65,10 @@ Each e-card contains a standardized set of fields to support rapid understanding
 - **Current status**  
 - **Link to shared operational backlog**
 
+![Illustrative e-card surfaced in Teams](../visuals/e-card-example.png)
+
+*Illustrative example of a priority-based e-card surfaced in a shared operational channel.*
+
 The structure is intentionally minimal, balancing context with speed.
 
 ---
@@ -79,6 +83,10 @@ Teams is not treated as a ticketing system, but as:
 - a coordination space across functions
 
 Priority tiers determine which cards are surfaced and how frequently, preventing alert fatigue and uncontrolled escalation.
+
+![Shared operational backlog of e-cards](../visuals/e-cards-backlog.png)
+
+*Illustrative view of a shared backlog enabling collective triage, prioritization and status tracking.*
 
 ---
 
