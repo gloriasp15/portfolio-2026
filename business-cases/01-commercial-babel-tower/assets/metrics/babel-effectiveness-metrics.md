@@ -37,7 +37,7 @@ These KPIs measure how quickly and reliably operational events are captured and 
 
 - **Definition**: Time elapsed between the occurrence of an operational event and its availability in the shared operational backlog.
 - **Formula**: 
-`(Event logged timestamp – Event occurrence timestamp)´
+`(Event logged timestamp – Event occurrence timestamp)`
 - **Expected impact**: ↓ Reduction after rollout, enabling near real-time visibility of operational signals. 
 - **Value driver**: Automated low-code ingestion and removal of manual event reporting.
   
@@ -47,7 +47,7 @@ These KPIs measure how quickly and reliably operational events are captured and 
 
 - **Definition**: Average time between event creation and first operational review through e-cards.
 - **Formula**: 
-  `(First triage timestamp – Event creation timestamp)´
+  `(First triage timestamp – Event creation timestamp)`´
 - **Expected impact**: ↓ Time reduction.
 - **Value driver**: Priority-based e-cards and shared operational visibility.
 
@@ -61,7 +61,7 @@ Metrics validating the quality and calibration of event scoring and tiering.
 
 - **Definition**: Degree to which events are consistently distributed across priority tiers based on scoring logic.
 - **Formula**: 
-  `(Events correctly prioritized) / Total events´
+  `(Events correctly prioritized) / Total events`
 - **Expected impact**: ↑ Stabilization of tier distribution over time.
 - **Value driver**: Well-calibrated event scoring based on impact, urgency and recurrence.
 
@@ -71,7 +71,7 @@ Metrics validating the quality and calibration of event scoring and tiering.
 
 - **Definition**: Percentage of events whose priority tier is manually overridden after scoring.
 - **Formula**: 
-  `(Manually re-tiered events) / Total events´
+  `(Manually re-tiered events) / Total events`
 - **Expected impact**: ↓ High-priority events reduction.
 - **Value driver**: Alignment between scoring logic and real operational relevance.
 
@@ -85,7 +85,7 @@ Metrics measuring response speed, backlog health and escalation behaviour.
 
 - **Definition**: Percentage of operational events escalated to downstream execution systems (e.g. ServiceNow).
 - **Formula**: 
-  `(Events escalated to execution systems) / Total events´
+  `(Events escalated to execution systems) / Total events`
 - **Expected impact**: Avoidance of unnecessary ticket creation.
 - **Value driver**: Effective tiering and early filtering of low-relevance operational noise.
 
@@ -95,7 +95,7 @@ Metrics measuring response speed, backlog health and escalation behaviour.
 
 - **Definition**: Reduction in ad-hoc escalations, emails or manual coordination related to operational issues.
 - **Formula**: 
-  `(Baseline manual handoffs – Current manual handoffs)´
+  `(Baseline manual handoffs – Current manual handoffs)`
 - **Expected impact**: ↓ Manual work hours.
 - **Value driver**: Shared operational backlog and standardized e-card-based triage.
 
@@ -105,7 +105,7 @@ Metrics measuring response speed, backlog health and escalation behaviour.
 
 - **Definition**: Average time high-priority events remain open in the operational backlog.
 - **Formula**: 
-  `(Current date – Event creation date) for High priority events´
+  `(Current date – Event creation date) for High priority events`
 - **Expected impact**: ↓ Events reduction in backlog.
 - **Value driver**: Clear ownership, structured triage and execution routing.
 
@@ -119,7 +119,7 @@ Metrics supporting pattern detection, continuous improvement and model refinemen
 
 - **Definition**: Frequency of repeated operational events within a defined time window.
 - **Formula**: 
-  `(Repeated events within time window) / Total events´
+  `(Repeated events within time window) / Total events`
 - **Expected impact**: Prior issue detection and structural address.
 - **Value driver**: Pattern detection and proactive operational intervention.
 
