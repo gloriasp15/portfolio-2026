@@ -1,69 +1,89 @@
 # Low-Code Event Ingestion  
-**Operational Event Orchestration – Commercial Babel Tower**
+**Operational Event Orchestration – The Commercial Babel Tower**
 
 ---
 
 ## Purpose
 
-The low-code ingestion layer enables **automated, scalable capture of operational events** across heterogeneous source systems without requiring deep system refactoring or centralized ownership.
+The low-code ingestion layer enables the automated capture of operational events across heterogeneous source systems without requiring deep system refactoring or centralized ownership.
 
-Its role is not to replace existing tools, but to **orchestrate operational signals** into a consistent, event-driven flow that feeds scoring, tiering and shared decision-making.
+Its role is to orchestrate operational signals into a consistent, event-driven flow that feeds scoring, tiering and shared decision-making, while keeping execution systems and local workflows unchanged.
 
-This artefact supports:
-- Multi-source event ingestion  
-- Event normalization and enrichment  
-- Decoupling event capture from prioritization logic  
+This artefact supports **Section B.2 – Low-Code Ingestion** of the main business case.
 
 ---
 
 ## Design Principles
 
-The ingestion approach is guided by the following principles:
+The ingestion approach follows a small set of operational principles:
 
 - **Low-friction integration**  
-  Source systems remain unchanged. Events are captured where they occur.
+  Events are captured at source without forcing upstream system consolidation.
 
 - **Automation by default**  
-  No manual handoffs are required to surface operational events.
+  Operational signals are surfaced without manual intervention or escalation.
 
-- **Schema consistency**  
-  All ingested events conform to a shared operational event structure.
+- **Shared operational language**  
+  All ingested events are translated into a common operational event schema.
 
-- **Incremental extensibility**  
-  New sources can be added without redesigning the operating model.
-
----
-
-## Typical Source Systems (Illustrative)
-
-Operational events may originate from multiple environments, including:
-
-- Retail systems (store actions, stock adjustments)  
-- E-commerce platforms (sales velocity, availability signals)  
-- Supply and planning tools (demand deviations, lead-time risks)  
-- Ticketing systems (e.g. ServiceNow, when already in use)  
-
-Each source produces events with its own semantics, frequency and data structure.
+- **Separation of concerns**  
+  Ingestion, prioritization and execution remain decoupled.
 
 ---
 
 ## Ingestion Pattern
 
-Low-code automation (e.g. Power Automate) is used to ingest events through a combination of:
+Low-code automation (e.g. Power Automate) is used to ingest operational events through flexible triggers such as forms, APIs or system signals.
 
-- Event-based triggers  
-- Scheduled polling  
-- API-based connectors  
+The ingestion flow intentionally consolidates multiple operational phases into a minimal number of automated steps, acting as a translation boundary between fragmented source systems and downstream prioritization logic.
 
-The ingestion layer acts as a **translation boundary**, separating source-specific logic from downstream prioritization and decision flows.
+---
+
+## Power Automate Workflow (Illustrative)
 
 ![Power Automate – Event Ingestion Workflow](../visuals/power-automate-event-ingestion-workflow.png)
 
-The workflow illustrates how operational events are captured, normalized and logged using low-code automation.
+The workflow illustrates how operational events are captured, normalized and persisted using low-code automation.
 
-Power Automate acts as the orchestration layer, translating heterogeneous inputs into a standardized operational event and routing it downstream for scoring, prioritization and shared visibility.
+Power Automate acts as the orchestration layer, translating heterogeneous inputs into a standardized operational event and routing them downstream for scoring, tiering and shared visibility.
 
-The flow intentionally consolidates multiple operational phases into a minimal number of automated steps, reducing manual handoffs while preserving clarity and control.
+---
+
+## Implementation Snapshot (Illustrative)
+
+The following JSON snapshot illustrates the **end-to-end execution pattern** implemented within the low-code ingestion workflow, from event normalization to scoring and backlog persistence.
+
+The example is intentionally simplified and focuses on execution logic rather than full Power Automate flow definitions.
+
+```json
+{
+  "normalizedEvent": {
+    "eventId": "uuid",
+    "eventType": "StockOut",
+    "sourceSystem": "Retail",
+    "entity": {
+      "storeId": "ES045",
+      "sku": "SKU-1234"
+    },
+    "timestamp": "2026-01-27T10:15:00Z",
+    "status": "New"
+  },
+  "scoringResult": {
+    "priorityTier": "High",
+    "score": 87
+  },
+  "backlogRecord": {
+    "eventId": "uuid",
+    "priorityTier": "High",
+    "status": "Open",
+    "createdAt": "2026-01-27T10:15:05Z"
+  }
+}
+
+This snapshot shows how:
+- heterogeneous inputs are translated into a shared operational event
+- scoring and tiering are applied downstream
+- prioritized events are persisted into a common operational backlog
 
 ---
 
