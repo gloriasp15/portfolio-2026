@@ -2,6 +2,18 @@
 **Operational Event Orchestration**  
 *Turning operational events into shared decisions*
 
+This business case explores how fragmented operational signals across retail, e-commerce and supply can be transformed into shared, prioritized decisions.
+
+The Commercial Babel Tower proposes an **event-driven operating model** where operational actions are captured, translated into a common language, and surfaced through a shared backlog to accelerate execution and reduce noise across teams.
+
+### Scope & Assumptions
+
+- The scope focuses on **operational event orchestration**, not on enterprise-wide system replacement.
+- The model assumes **heterogeneous source systems** across retail, e-commerce and supply.
+- Tooling examples (Power Automate, Teams, ServiceNow) are **illustrative and non-prescriptive**.
+- The operating model is designed for **incremental rollout**, starting with priority use cases.
+- Governance, ownership and execution remain **locally embedded**, with shared visibility at group level.
+
 ---
 
 ## A. Business Context
@@ -11,10 +23,6 @@ These events are produced in different systems, interpreted locally and escalate
 
 The issue is not data availability, but the absence of a shared operational language that allows events to be prioritized, coordinated and acted upon consistently across teams.
 
-This business case addresses how to transform fragmented operational signals into shared, decision-ready priorities without centralizing control or replacing existing execution systems.
-
----
-
 ### Current Challenges
 
 - Fragmented operational signals across heterogeneous systems  
@@ -22,9 +30,7 @@ This business case addresses how to transform fragmented operational signals int
 - Unstructured exception handling and manual escalations  
 - Reporting-driven decision cycles  
 
----
-
-## Impact on Operations
+### Impact on Operations
 
 - Delayed reaction to demand and stock deviations  
 - Misaligned priorities across operational teams  
@@ -139,6 +145,39 @@ Rather than measuring reporting volume or tool adoption, these metrics track how
 
 ---
 
+### D. Artefacts
+
+This business case includes:
+
+- Commercial Babel Tower snapshot slide (PDF)
+- Low-Code Event Ingestion (Power Automate) definition and example 
+- Event Scoring & Tiering Logic definition
+- E-Cards & Shared Operational Backlog illustration
+- Babel Effectiveness Metrics
+  
+Each artefact is designed to be modular and tool-agnostic, enabling adaptation to different retail operating contexts.
+
+---
+
+### E. Impact Summary – Before vs After
+
+The table below summarizes the expected operational impact of the Commercial Babel Tower once implemented, highlighting how signal handling, prioritization and execution improve across retail, e-commerce and supply functions.
+
+| Dimension | Before Babel Tower | After Babel Tower |
+|---------|--------------------|-------------------|
+| Operational signals | Fragmented across systems and teams | Captured as standardized operational events |
+| Event visibility | Delayed and role-dependent | Near real-time, role-aware visibility |
+| Prioritization | Subjective and function-driven | Objective, scoring-based tiering |
+| Reaction time | Slow, driven by manual escalation | Reduced through automated ingestion and triage |
+| Cross-team coordination | Ad-hoc, informal handoffs | Shared operational backlog and e-cards |
+| Escalation behaviour | Excessive ticket creation | Selective escalation based on priority |
+| Traceability | Limited or inconsistent | End-to-end event traceability |
+| Operational posture | Reactive | Anticipatory and data-driven |
+
+These improvements are measured and monitored through the babel effectiveness KPIs defined in the supporting artefacts.
+
+---
+
 ## F. Why This Matters
 
 The Commercial Babel Tower does not centralize decisions or replace existing systems.  
@@ -147,7 +186,6 @@ It centralizes operational relevance, priority and timing, enabling coordinated 
 ---
 
 ## Notes
-
 - Tools mentioned are illustrative  
 - The value lies in the operating model, not the technology stack  
 - The approach scales from fragmented environments to mature, ticket-driven operations  
