@@ -80,7 +80,9 @@ The example is intentionally simplified and focuses on execution logic rather th
   }
 }
 
-```**
+
+
+
 
 This snapshot shows how:
 - heterogeneous inputs are translated into a shared operational event
