@@ -1,5 +1,5 @@
 # 🗼 The Commercial Babel Tower  
-### Operational Event Orchestration: *Turning operational events into shared decisions*
+### Operational Event Orchestration: *Turning events into shared decisions*
 
 This business case explores how fragmented operational signals across retail, e-commerce and supply can be transformed into shared, prioritized decisions.
 
