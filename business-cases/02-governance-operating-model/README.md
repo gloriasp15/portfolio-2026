@@ -6,10 +6,14 @@ It is particularly relevant for complex, regulated organizations where data deci
 
 The model focuses on **how data-related decisions are made and executed**, rather than on governance as a purely policy-driven exercise.
 
-Scope & assumptions:
-- This operating model focuses on Data Quality governance, not enterprise-wide data management
-- The model assumes federated data domains with centralized governance oversight
-- Tooling and platforms are intentionally excluded to keep the focus on decision ownership and execution
+## Scope & Assumptions
+
+- This operating model focuses on clarifying decision ownership and execution
+  across complex, cross-functional processes.
+- The model assumes distributed ownership across domains, coordinated through
+  a shared governance and prioritization framework.
+- Solutions, tools and platforms are intentionally abstracted to keep the focus
+  on roles, decision rights and operational execution rather than implementation specifics.
 
 ---
 
@@ -34,9 +38,9 @@ The model is structured as a **governance body framework**, combining lifecycle 
 
 And this is how the **Governance Operating Model** would be implemented:
 
-- 1. Start with a limited set of critical data elements (KDEs)
-- 2. Roll out roles and RACI progressively, prioritizing high-impact processes
-- 3. Introduce KPIs early to track adoption and execution effectiveness
+- Start with a limited set of critical data elements (KDEs)
+- Roll out roles and RACI progressively, prioritizing high-impact processes
+- Introduce KPIs early to track adoption and execution effectiveness
 
 ---
 
