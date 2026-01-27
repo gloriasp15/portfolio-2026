@@ -124,6 +124,9 @@ Events remain revisitable, monitorable and exportable for HQ review, monitoring 
 ---
 
 ## C. Effectiveness Metrics
+The effectiveness of the Commercial Babel Tower operating model is assessed through execution-oriented metrics focused on signal quality, prioritization accuracy and speed of operational response.
+
+Rather than measuring reporting volume or tool adoption, these metrics track how quickly operational events are surfaced, how consistently they are prioritized, and how effectively teams act on shared signals across retail, e-commerce and supply.
 
 - Event-to-decision latency  
 - Priority accuracy  
@@ -131,6 +134,8 @@ Events remain revisitable, monitorable and exportable for HQ review, monitoring 
 - Resolution cycle time  
 - Recurring event patterns  
 
+➡️ 
+*(See supporting artefacts for detailed role definitions and interactions.)* 
 ---
 
 ## F. Why This Matters
