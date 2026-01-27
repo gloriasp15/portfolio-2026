@@ -6,7 +6,7 @@ It is particularly relevant for complex, regulated organizations where data deci
 
 The model focuses on **how data-related decisions are made and executed**, rather than on governance as a purely policy-driven exercise.
 
-## Scope & Assumptions
+### Scope & Assumptions
 
 - This operating model focuses on clarifying decision ownership and execution
   across complex, cross-functional processes.
@@ -17,7 +17,7 @@ The model focuses on **how data-related decisions are made and executed**, rathe
 
 ---
 
-## Business Context
+## A. Business Context
 
 Organizations operating with advanced data and analytics capabilities often face recurring challenges:
 
@@ -30,7 +30,7 @@ These challenges typically lead to low trust in KPIs, slow issue resolution, fri
 
 ---
 
-## Business Solution
+## B. Business Solution
 
 A **practical data governance framework** defining **decision ownership across the data–business lifecycle**, built to translate governance principles into operational execution.
 
@@ -44,7 +44,7 @@ And this is how the **Governance Operating Model** would be implemented:
 
 ---
 
-## Governance Architecture  
+## B.1. Governance Architecture  
 ### Three Layers. One Flow.
 
 The governance architecture is organized into three complementary layers:
@@ -59,7 +59,7 @@ These layers work together to ensure alignment between strategic intent, decisio
 
 ---
 
-## Governance Body Construction  
+## B.2. Governance Body Construction  
 ### A structured, decision-driven approach
 
 The governance body is constructed through three sequential steps.
@@ -152,7 +152,7 @@ RACI clarifies who executes, who owns the outcome, who provides input and who re
 
 ---
 
-## Effectiveness Metrics  
+## C. Effectiveness Metrics  
 ### Governance & Operational KPIs
 
 The effectiveness of the governance model is measured through governance and operational KPIs, including:
@@ -167,7 +167,7 @@ The effectiveness of the governance model is measured through governance and ope
 
 ---
 
-## Artefacts
+## D. Artefacts
 
 This business case includes:
 - Governance Operating Model snapshot slide (PDF)  
@@ -178,7 +178,7 @@ This business case includes:
 
 ---
 
-## Impact Summary – Before vs After
+## E. Impact Summary – Before vs After
 
 The table below summarizes the expected impact of the Governance Operating Model
 once implemented, highlighting how decision-making, execution and trust improve
@@ -201,6 +201,6 @@ effectiveness KPIs defined in the supporting artefacts.
 
 ---
 
-## Why This Matters
+## F. Why This Matters
 
 This operating model reframes data governance as a **decision enablement system**, creating a scalable foundation for data, analytics and AI adoption.
