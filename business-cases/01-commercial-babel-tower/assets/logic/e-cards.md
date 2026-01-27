@@ -84,7 +84,7 @@ Teams is not treated as a ticketing system, but as:
 
 Priority tiers determine which cards are surfaced and how frequently, preventing alert fatigue and uncontrolled escalation.
 
-![Shared operational backlog of e-cards](../visuals/ecards-backlog-example.png)
+![Shared operational backlog of e-cards](../visuals/ecard-backlog-example.png)
 
 *Illustrative view of a shared backlog enabling collective triage, prioritization and status tracking.*
 
