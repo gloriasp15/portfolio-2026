@@ -50,6 +50,8 @@ Tiered events are consolidated into a shared operational backlog and surfaced th
 
 The operating model is structured as a sequential flow from event generation to execution and review. Each phase serves a distinct operational purpose, with selected phases supported by dedicated artefacts for deeper inspection.
 
+---
+
 ### B.1. Event Generation  
 Operational events originate independently across:
 - Retail / Stores  
