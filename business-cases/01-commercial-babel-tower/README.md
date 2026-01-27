@@ -38,6 +38,7 @@ This business case addresses how to transform fragmented operational signals int
 The Commercial Babel Tower proposes an **Operational Event Orchestration** approach that enables automated multi-source event ingestion, objective prioritization through tiering and centralized operational observability.
 
 Operational events are captured at source using low-code automation, translated into a common signal format and prioritized through predefined scoring rules.  
+
 Tiered events are consolidated into a shared operational backlog and surfaced through e-cards for daily triage and decision-making, with execution and traceability handled downstream when required.
 
 ![Operational Event Orchestration – The Commercial Babel Tower](assets/visuals/operational-event-orchestration.png)
@@ -46,37 +47,51 @@ Tiered events are consolidated into a shared operational backlog and surfaced th
 
 ## B.1. Operating Model
 
-The operating model follows a sequential flow from event generation to execution and review.
+The operating model is structured as a sequential flow from event generation to execution and review. Each phase serves a distinct operational purpose, with selected phases supported by dedicated artefacts for deeper inspection.
 
-### B.1.1. Event Generation  
-Operational events originate independently from:
+### B.1. Event Generation  
+Operational events originate independently across:
 - Retail / Stores  
 - E-commerce  
 - Supply & Planning  
 
+These sources may include store-level actions, digital performance signals or planning deviations.
 Each source operates with its own systems, timing and operational logic.
 
+Given the heterogeneity of legacy systems, events are captured where they occur rather than forced into a single upstream platform.
+
 ---
 
-### B.1.2. Low-Code Ingestion  
-Events are automatically ingested using low-code automation (e.g. Power Automate), enabling:
+### B.2. Low-Code Ingestion  
+Operational events are automatically ingested using low-code automation (e.g. Power Automate), enabling:
 - Multi-source ingestion  
 - Event normalization  
-- Metadata enrichment  
+- Metadata enrichment
+
+This approach allows operational teams to surface events consistently while keeping system ownership local.
+
+➡️ 
+*(See supporting artefacts for detailed role definitions and interactions.)*  
 
 ---
 
-### B.1.3. Event Scoring & Tiering  
-Each event is objectively scored based on:
+### B.3. Event Scoring & Tiering  
+Not all operational events require the same level of attention.
+Each event is evaluated through a predefined scoring model based on:
 - Impact  
 - Urgency  
 - Recurrence  
 
 This scoring establishes priority tiers (High / Medium / Low), independent of the originating team, creating a shared operational language.
 
+Tiering establishes a shared operational language, ensuring that prioritization is consistent across functions and independent of local interpretation.
+
+➡️ 
+*(See supporting artefacts for detailed role definitions and interactions.)*  
+
 ---
 
-### B.1.4. Shared Operational Event Ledger (Babel Tower)
+### B.4. Shared Operational Event Ledger (Babel Tower)
 
 Tiered events are stored in a shared operational repository (e.g. Dataverse), acting as a single source of operational truth where:
 - Each event exists once  
@@ -88,7 +103,7 @@ This is the translation point where fragmented operational signals become shared
 
 ---
 
-### B.1.5. Shared Attention & Decision (E-Cards)
+### B.5. Shared Attention & Decision (E-Cards)
 
 Prioritized events are surfaced through priority-based e-cards in a shared operational channel (e.g. Microsoft Teams), enabling:
 - Cross-team visibility  
@@ -99,7 +114,7 @@ Only relevant, tiered events are exposed, reducing operational noise.
 
 ---
 
-### B.1.6. Execution, Monitoring & Review
+### B.6. Execution, Monitoring & Review
 
 When formal execution or traceability is required:
 - Actions are executed and tracked via ServiceNow or equivalent systems  
