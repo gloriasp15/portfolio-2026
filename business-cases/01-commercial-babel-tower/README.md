@@ -82,7 +82,7 @@ This scoring establishes priority tiers (High / Medium / Low), independent of th
 
 Tiering establishes a shared operational language, ensuring that prioritization is consistent across functions and independent of local interpretation.
 
-➡️ 
+➡️ [Event Scoring & Tiering Logic](logic/event-scoring.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*  
 
 ---
