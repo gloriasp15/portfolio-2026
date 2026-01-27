@@ -144,7 +144,7 @@ Rather than measuring reporting volume or tool adoption, these metrics track how
 
 ---
 
-### D. Artefacts
+## D. Artefacts
 
 This business case includes:
 
@@ -158,7 +158,7 @@ Each artefact is designed to be modular and tool-agnostic, enabling adaptation t
 
 ---
 
-### E. Impact Summary – Before vs After
+## E. Impact Summary – Before vs After
 
 The table below summarizes the expected operational impact of the Commercial Babel Tower once implemented, highlighting how signal handling, prioritization and execution improve across retail, e-commerce and supply functions.
 
