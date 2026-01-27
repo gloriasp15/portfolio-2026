@@ -66,7 +66,7 @@ Operational events are automatically ingested using low-code automation (e.g. Po
 
 This approach allows operational teams to surface events consistently while keeping system ownership local.
 
-➡️ 
+➡️  [Low-Code Event Ingestion](logic/low-code-ingestion.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*  
 
 ---
