@@ -43,10 +43,6 @@ Tiered events are consolidated into a shared operational backlog and surfaced th
 
 ![Operational Event Orchestration – The Commercial Babel Tower](assets/visuals/operational-event-orchestration.png)
 
----
-
-## B.1. Operating Model
-
 The operating model is structured as a sequential flow from event generation to execution and review. Each phase serves a distinct operational purpose, with selected phases supported by dedicated artefacts for deeper inspection.
 
 ### B.1. Event Generation  
@@ -93,13 +89,13 @@ Tiering establishes a shared operational language, ensuring that prioritization 
 
 ### B.4. Shared Operational Event Ledger (Babel Tower)
 
-Tiered events are stored in a shared operational repository (e.g. Dataverse), acting as a single source of operational truth where:
+Tiered events are consolidated and stored in a shared operational repository (e.g. Dataverse), acting as a single source of operational truth where:
 - Each event exists once  
 - Priority is consistent across teams  
 - Ownership and status are explicit  
 - Event history is preserved  
 
-This is the translation point where fragmented operational signals become shared, decision-ready inputs.
+This ledger acts as the translation point between fragmented operational signals and shared decision-making inputs.
 
 ---
 
@@ -111,6 +107,9 @@ Prioritized events are surfaced through priority-based e-cards in a shared opera
 - Coordinated decision-making  
 
 Only relevant, tiered events are exposed, reducing operational noise.
+
+➡️ 
+*(See supporting artefacts for detailed role definitions and interactions.)* 
 
 ---
 
