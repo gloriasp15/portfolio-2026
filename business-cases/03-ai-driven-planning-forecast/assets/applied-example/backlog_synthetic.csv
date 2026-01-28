@@ -13,3 +13,6 @@ INC-011,17/10/2024,,13-11-2024,Ongoing,High,Sev1,IT,"Payments IT","Raúl S.","Op
 INC-012,05-09-2024,15/10/2024,15/10/2024,Closed,Medium,Sev2,Operations,"Ops Brazil","Thiago N.","Operations","Sprint-06","Data",N,"BR",Y,"Data Platform","","Data","Tactical","","Data corrections validated","Medium","Data corrections applied after reconciliation."
 INC-013,04-10-2024,,11/11/2024,Ongoing,High,Sev1,Operations,"Ops Spain","Marta R.","Operations","Sprint-08","Payments",Y,"ES",Y,"Payments Platform","","Unknown","Tactical","","","High","Pagos lentos en algunos comercios, no info from IT yet."
 INC-014,26/10/2024,,15-11-2024,Ongoing,High,Sev1,Business,"Settlement Team BR","Paulo A.","Business","Sprint-09","Integration",N,"BR",Y,"Core Banking","","Integration","Strategic","","","High","Liquidação atrasada para alguns parceiros, possibly same issue as last week."
+
+
+All data used in this example has been synthetically generated using AI, based on patterns observed in a real operational case. No confidential or proprietary data has been exposed, in line with data protection and confidentiality policies.
