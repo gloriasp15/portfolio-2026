@@ -148,5 +148,9 @@ LLMs replace manual synthesis with semantic interpretation, transforming structu
 
 The main value of this example lies in the applied logic and outputs, which demonstrate how the decision intelligence loop operates in practice.
 
-The (`executive_summary.md`) is derived from an interpreted signal layer [Executive Interpretation](executive-decision-snapshot.csv), generated through *LLM-based synthesis* rather than directly from operational data.
+The (`executive_summary.md`) is derived from an interpreted signal layer (`executive_decision-snapshot.csv`), generated through *LLM-based synthesis* rather than directly from operational data.
+
+🔗 [Executive Interpretation](executive-decision-snapshot.csv):  Structured executive interpretation of backlog signals. It captures AI-synthesised insights on backlog pressure, execution risk, coordination frictions and ownership clarity, derived from structured logic outputs at a given point in time.
+
+
 
