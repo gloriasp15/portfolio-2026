@@ -50,24 +50,47 @@ The model connects business drivers, planning inputs and real-world feedback fro
 
 ---
 
-### B.1. Solution Model — Planning, Rewired
+### B.1. Operating Model — Planning, Rewired
 
 The model is structured as a continuous intelligence loop:
 
-- Business drivers and planning inputs are made explicit  
-- Forecast and scenario models test strategic options  
-- A GenAI layer synthesizes results into decision intelligence outputs  
-- Real-world outcomes and business feedback continuously refine assumptions  
-
-The objective is not higher predictive accuracy alone, but faster and more confident decisions grounded in transparent trade-offs.
-
 ![Operating Model - AI-augmented Planning System](assets/visuals/planning-diagram.png)
+
+### B.1.1. Framing — Business Drivers
+
+(Outer spiral, left side)
+
+The loop starts with **business drivers and planning inputs**, represented by the outer spiral that surrounds the system. This layer captures strategic priorities, assumptions, constraints and signals coming from different teams: Operations, IT and Business.
+
+The spiral shape reflects that these inputs are **not static**: assumptions evolve, priorities shift and signals continuously reshape what the organization needs to test through planning.
+
+### B.1.2. Exploration — AI-Augmented Planning System
+
+(Inner circle at the core)
+
+At the centre of the model sits the **AI-augmented Planning System**, where forecasts and scenario models are used to test strategic options. This is where assumptions are stress-tested, alternatives are compared and trade-offs are quantified.
+
+The GenAI layer acts as an enabler within this core, synthesising outputs across scenarios and translating analytical results into coherent decision intelligence, without displacing human ownership of judgment.
+
+The reduced size of the inner circle is intentional: **AI supports the process, but does not dominate it**.
+
+### B.1.3. Learning — Intelligence Outputs and Feedback
+
+(Outbound curve to the right)
+
+The outbound curve represents the transition **from planning to decision intelligence outputs**. Rather than producing static forecasts, the system generates insights that inform real decisions.
+
+Decisions taken, real-world outcomes and deviations versus plan feed back into the loop through business feedback, continuously refining assumptions and improving the relevance of future planning cycles.
+
+The curve is intentionally ascending, reflecting that **learning** in AI-enabled planning systems **is cumulative rather than cyclical**. As decisions are confronted with real-world outcomes, assumptions and scenario logic are progressively refined, increasing the reliability and relevance of decision intelligence over time.
 
 ---
 
 ### B.2. Tooling & Implementation Approach
 
-The solution is designed to be lightweight, modular and enterprise-ready:
+The solution is designed to be lightweight, modular and enterprise-ready, reflecting how planning systems are typically implemented and evolved in real organizational contexts. Rather than introducing a new standalone platform, the approach layers analytical and GenAI capabilities on top of existing planning and reporting environments.
+
+Tooling choices are illustrative and derived from practical exposure to common enterprise stacks. The emphasis is placed on how components interact to enable decision intelligence, not on the tools themselves.
 
 - **Forecast & Scenario Engine**  
   Python, SQL and existing FP&A models  
