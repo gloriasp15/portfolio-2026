@@ -20,21 +20,23 @@ In other words, to make the most of both existing capabilities and the future AI
 
 ## A. Business Problem
 
-In volatile and fast-changing environments, traditional planning and forecasting models struggle to support timely and confident decision-making.
+Increased investment in data and analytics has led many organizations to **struggle with harmonisation and effective downstream use**. Forecasts and plans often coexist in multiple versions across multiple channels, shaped by different assumptions, ownership models and time horizons.
 
-While data availability has increased, planning processes remain fragmented, slow and heavily manual, limiting their ability to guide strategic choices.
+As a result, planning becomes highly manual, increasing operational risk associated with human intervention. This makes it difficult to test strategic choices in a consistent and trustworthy way. Scenarios are produced, but rarely recalculated at the pace decisions require, and executive teams frequently rely on parallel analyses or intuition when navigating trade-offs.
+
+The core problem is not the absence of information, but the lack of an integrating model that consistently converts business drivers and assumptions into timely, decision-ready intelligence.
 
 ### Current Challenges
 
-- Fragmented planning cycles and multiple forecast versions  
-- Low executive trust in forecasting outputs  
-- Slow scenario recalculation in volatile contexts  
+- Fragmented planning cycles and multiple, inconsistent forecast versions
+- Limited transparency on key drivers, resulting in low executive trust in forecasting outputs
+- Slow scenario recalculation in rapidly changing contexts  
 
 ### Impact on the Organization
 
-- Delayed strategic decisions  
+- Strategic decisions delayed or taken based on outdated insights
 - Inefficient capital allocation  
-- Planning perceived as reporting, not decision support  
+- Planning perceived as reporting, not decision enabler  
 
 ---
 
@@ -42,7 +44,9 @@ While data availability has increased, planning processes remain fragmented, slo
 
 An **AI-augmented planning system** that continuously updates forecasts, simulates scenarios and transforms business drivers into executive-ready intelligence outputs.
 
-Rather than replacing existing planning processes, the solution overlays AI capabilities to enhance interpretation, scenario analysis and decision clarity.
+Rather than replacing existing planning processes, the solution overlays AI capabilities to structure assumptions, accelerate scenario analysis and translate planning outputs into decision-ready intelligence. The focus is not on predictive sophistication, but on enabling faster, clearer and more trusted decisions across planning cycles.
+
+The model connects business drivers, planning inputs and real-world feedback from heterogeneal teams through a single planning system, ensuring that forecasts and scenarios evolve at the same pace as strategic decisions.
 
 ---
 
