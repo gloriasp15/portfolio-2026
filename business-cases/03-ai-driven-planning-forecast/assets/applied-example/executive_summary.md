@@ -18,22 +18,24 @@ graph LR
 
 ### Coordination & Complexity Signals
 
+```mermaid
 graph TD
     A[Operational Complexity] --> B[Multi-Geo Exposure: High]
     A --> C[Ageing Risk: Medium]
     A --> D[Duplicate Effort Risk: High]
     A --> E[Ownership Clarity: Low]
-
+```
  ----
  
 ### Continuous Intelligence Loop
 
+```mermaid
 graph LR
     A[Backlog Snapshot] --> B[Logic Signals]
     B --> C[LLM Interpretation]
     C --> D[Executive Narrative]
     D --> A
-
+```
 ---
 
 # Executive Intelligence Summary
