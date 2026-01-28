@@ -179,7 +179,8 @@ Rather than assessing predictive accuracy in isolation, the metrics below evalua
 - Time-to-decision reduction  
 - Executive confidence in planning outputs  
 
-➡️ (See supporting artefacts for detailed role definitions and interactions.)
+➡️ [AI-Driven P&F Model](./assets/metrics/README.md)
+*(See supporting artefacts for detailed role definitions and interactions.)*
 
 ---
 
