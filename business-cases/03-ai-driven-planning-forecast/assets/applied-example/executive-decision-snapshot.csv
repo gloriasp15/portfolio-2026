@@ -1,0 +1,8 @@
+dimension,signal,value,interpretation
+Backlog Pressure,Total open incidents,9,"Sustained operational pressure across teams"
+Backlog Pressure,High priority open,5,"High concentration of critical issues requiring attention"
+Time Exposure,Average ageing (days),41.3,"Several incidents exceed expected resolution cycles"
+Coordination,Multi-geo exposure,56%,"More than half of open incidents affect multiple geographies"
+Coordination,Suspected duplicate clusters,2,"Likely duplicated effort due to cross-team misalignment"
+Ownership,Ambiguous ownership cases,High,"Incidents assigned to individuals, teams and roles inconsistently"
+Execution,Tactical vs Strategic mix,Imbalanced,"Tactical fixes masking structural problems"
