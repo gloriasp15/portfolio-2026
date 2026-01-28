@@ -150,7 +150,9 @@ To illustrate how the proposed planning and decision intelligence model operates
 
 The example demonstrates how fragmented operational data is progressively transformed into structured signals, AI-enabled interpretation and executive-facing outputs, following the same logic and tooling principles described above.
 
-The full applied example, including data artefacts, logic scripts and executive outputs, is available in the following folder:[View Applied Example](assets/applied-example)
+➡️ The full applied example, including data artefacts, logic scripts and executive outputs, is available in the following folder:
+
+[View Applied Example](assets/applied-example)
 
 
 ### B.4. Roll-out Timeline
