@@ -46,19 +46,18 @@ Out of scope:
 
 The example is organised as a simple pipeline aligned with the solution model:
 
-- A. **Input**: [Synthetic Backlog Snapshot](.../assets/applied-example/backlog_synthetic.csv)
+- **A. Input**: [Synthetic Backlog Snapshot](.../assets/applied-example/backlog_synthetic.csv)
 
->>> All data used in this example has been synthetically generated using AI, based on patterns observed in a real operational case. No confidential or proprietary data has been exposed, in line with data protection and confidentiality policies.
+> All data used in this example has been synthetically generated using AI, based on patterns observed in a real operational case. No confidential or proprietary data has been exposed, in line with data protection and confidentiality policies.
 
 **Common Frictions Observed**
 
-- The synthetic backlog deliberately reproduces a set of issues frequently observed in real operational environments
-- Duplicate incidents reported independently by different teams, reflecting lack of cross-team coordination and shared visibility
-- Inconsistent date formats and missing timestamps, complicating ageing analysis and prioritisation
-- Ambiguous ownership, with incidents assigned to individuals, teams or high-level roles interchangeably
-- Heterogeneous descriptions, mixing languages and levels of detail, increasing interpretation effort
-- Incomplete or undefined root causes, limiting the ability to distinguish tactical fixes from structural problems
-- Limited or absent data quality indicators, despite data reliability being critical for decision-making
+- **Duplicate incidents** reported independently by different teams, reflecting lack of cross-team coordination and shared visibility
+- Inconsistent **date formats and missing timestamps**, complicating ageing analysis and prioritisation
+- Ambiguous **ownership**, with incidents assigned to individuals, teams or high-level roles interchangeably
+- Heterogeneous descriptions, **mixing languages and levels of detail**, increasing interpretation effort
+- Incomplete or undefined **root causes**, limiting the ability to distinguish tactical fixes from structural problems
+- **Limited or absent data quality indicators**, despite data reliability being critical for decision-making
 
 These frictions reduce the reliability of manual reporting and explain why executive decisions are often taken with partial or delayed insight.
 
