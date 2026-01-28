@@ -188,7 +188,7 @@ Rather than assessing predictive accuracy in isolation, the metrics below evalua
 - Time-to-decision reduction  
 - Executive confidence in planning outputs  
 
-➡️ [AI-Driven P&F Model](./assets/metrics/README.md)
+➡️ [AI-Driven Effectiveness Metrics](./assets/metrics/README.md)
 *(See supporting artefacts for detailed role definitions and interactions.)*
 
 ---
@@ -197,16 +197,35 @@ Rather than assessing predictive accuracy in isolation, the metrics below evalua
 
 This business case includes:
 
-
+- AI-Driven Planning & Forecast snapshot slide (PDF)  
+- Applied example with synthetic data, logic scripts and intermediate outputs  
+- AI-enabled interpretation layer and executive narrative deliverable  
+- Decision intelligence dashboard (C-level view)  
+- AI-Driven Effectiveness Metrics
 
 ---
 
 ## E. Impact Summary – Before vs After
 
+The table below summarizes the expected impact of the AI-driven Planning & Forecast
+model once implemented, highlighting how planning effectiveness, decision speed and
+confidence improve across the organization.
 
+| Dimension | Before AI-Driven Planning | After AI-Driven Planning |
+|---------|---------------------------|--------------------------|
+| Planning process | Fragmented cycles and manual consolidation | Continuous, signal-driven planning |
+| Scenario generation | Slow, ad-hoc and analyst-dependent | Rapid scenario recalculation and synthesis |
+| Time-to-decision | Long and inconsistent | Reduced and more predictable |
+| Forecast consistency | Multiple versions and assumptions | Single, transparent planning narrative |
+| Executive confidence | Limited trust, reliance on parallel analysis | Higher confidence in shared planning outputs |
+| Use of unstructured data | Largely ignored or manually interpreted | Systematically interpreted through AI |
+| Planning effort | High manual effort per cycle | Reduced manual effort through automation |
+| Learning from outcomes | Limited or informal feedback | Structured feedback into planning assumptions |
+
+These improvements are monitored through planning effectiveness metrics focused on
+forecast accuracy, planning cycle time, time-to-decision and executive confidence.
 
 ---
-
 
 ## F. Why This Matters
 
