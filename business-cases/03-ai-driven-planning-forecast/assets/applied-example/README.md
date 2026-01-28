@@ -82,9 +82,7 @@ The output of this layer is not a cleaned dataset, but a small **set of structur
 🔗 [Suspected Duplicates](assets/applied-example/script02-suspected_duplicates.csv): List of incident clusters with high semantic similarity. It surfaces potential duplicated work caused by lack of coordination across teams and geographies.
 
 ---
-### C. Interpretation 
-
-[Narrative Layer](assets/applied-example/narrative_layer.py)
+### C. Interpretation [Narrative Layer](../assets/applied-example/narrative_layer.py)
 
 #### C.1. Interpretation — How Narrative Is Generated
 
