@@ -40,7 +40,39 @@ Out of scope:
 
 ## Structure
 
-The example is organised as a simple pipeline aligned with the solution model:
+The example is organised as a simple pipeline aligned with the solution model.
+
+### End-to-End Applied Workflow
+
+```mermaid
+graph LR
+    %% INPUT
+    A[Operational Backlog Snapshot<br/>(backlog_synthetic.csv)]
+
+    %% LOGIC
+    B[Logic Layer<br/>(Python-based signal generation)]
+    C[Backlog Signals<br/>(signals_summary.csv)]
+    D[Coordination Frictions<br/>(suspected_duplicates.csv)]
+
+    %% INTERPRETATION
+    E[LLM Interpretation Layer<br/>(Semantic synthesis)]
+    F[Executive Interpretation<br/>(executive_interpretation.csv)]
+
+    %% OUTPUT
+    G[Executive Dashboard & Narrative<br/>(executive_summary.md)]
+
+    %% FLOW
+    A -->|raw operational data| B
+    B -->|structured metrics & flags| C
+    B -->|semantic similarity cues| D
+    C -->|decision signals| E
+    D -->|coordination frictions| E
+    E -->|AI-synthesised insights| F
+    F -->|executive-ready context| G
+    G -->|feedback & outcomes| A
+```
+
+---
 
 ### A. Input: [Synthetic Backlog Snapshot](backlog_synthetic.csv)
 
