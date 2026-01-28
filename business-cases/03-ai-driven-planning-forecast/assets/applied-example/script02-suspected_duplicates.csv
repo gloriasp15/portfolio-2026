@@ -1,0 +1,3 @@
+normalized_description,incident_ids,comment
+payments failing intermittently,[INC-001; INC-011; INC-013],"Similar descriptions across Ops and IT teams, ES-BR context"
+erro no sistema de liquidacao,[INC-003; INC-014],"Likely same settlement issue reported independently in Brazil"
