@@ -14,7 +14,7 @@ graph LR
     A --> C[Medium Priority: 3]
     A --> D[Low Priority: 1]
 ```
-----
+---
 
 ### Coordination & Complexity Signals
 
@@ -24,17 +24,6 @@ graph TD
     A --> C[Ageing Risk: Medium]
     A --> D[Duplicate Effort Risk: High]
     A --> E[Ownership Clarity: Low]
-```
- ----
- 
-### Continuous Intelligence Loop
-
-```mermaid
-graph LR
-    A[Backlog Snapshot] --> B[Logic Signals]
-    B --> C[LLM Interpretation]
-    C --> D[Executive Narrative]
-    D --> A
 ```
 ---
 
