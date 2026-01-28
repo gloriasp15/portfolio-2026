@@ -44,32 +44,26 @@ The example is organised as a simple pipeline aligned with the solution model.
 
 ### End-to-End Applied Workflow
 
+### End-to-End Applied Workflow
+
 ```mermaid
 graph LR
-    %% INPUT
-    A[Operational Backlog Snapshot<br/>(backlog_synthetic.csv)]
+    A[Backlog Snapshot]
+    B[Logic Layer]
+    C[Backlog Signals]
+    D[Coordination Frictions]
+    E[LLM Interpretation]
+    F[Executive Interpretation]
+    G[Executive Dashboard]
 
-    %% LOGIC
-    B[Logic Layer<br/>(Python-based signal generation)]
-    C[Backlog Signals<br/>(signals_summary.csv)]
-    D[Coordination Frictions<br/>(suspected_duplicates.csv)]
-
-    %% INTERPRETATION
-    E[LLM Interpretation Layer<br/>(Semantic synthesis)]
-    F[Executive Interpretation<br/>(executive_interpretation.csv)]
-
-    %% OUTPUT
-    G[Executive Dashboard & Narrative<br/>(executive_summary.md)]
-
-    %% FLOW
-    A -->|raw operational data| B
-    B -->|structured metrics & flags| C
-    B -->|semantic similarity cues| D
-    C -->|decision signals| E
-    D -->|coordination frictions| E
-    E -->|AI-synthesised insights| F
-    F -->|executive-ready context| G
-    G -->|feedback & outcomes| A
+    A -->|backlog_synthetic.csv| B
+    B -->|signals_summary.csv| C
+    B -->|suspected_duplicates.csv| D
+    C --> E
+    D --> E
+    E -->|executive_interpretation.csv| F
+    F -->|executive_summary.md| G
+    G -->|feedback loop| A
 ```
 
 ---
