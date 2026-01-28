@@ -75,6 +75,10 @@ The output of this layer is not a cleaned dataset, but a small **set of structur
 - Owned by Finance (FP&A) teams, with close involvement from Operations and selective support from Analytics and IT
 - Designed to run in standard analytics environments, such as local Python setups, shared notebook-based workflows or enterprise analytics platforms (e.g. Databricks)
 
+**Logic outputs** made by the script: 
+🔗 [Signals Summary](assets/applied-example/script01-signals_summary.csv): Structured snapshot of the backlog state. It captures volume, ageing, priority pressure, cross-geo exposure and backlog tension at a given point in time.
+🔗 [Suspected Duplicates](assets/applied-example/script02-suspected_duplicates.csv): List of incident clusters with high semantic similarity. It surfaces potential duplicated work caused by lack of coordination across teams and geographies.
+
 ---
 ### C. Interpretation: narrative synthesis  
 
