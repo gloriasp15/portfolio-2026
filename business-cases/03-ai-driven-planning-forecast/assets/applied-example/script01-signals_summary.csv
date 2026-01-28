@@ -1,0 +1,6 @@
+signal,value,description
+total_open_incidents,9,"Number of incidents not marked as Closed or Discarded"
+high_priority_open,5,"Open incidents with High priority"
+avg_ageing_days,41.3,"Average ageing (in days) of open incidents"
+multi_geo_share,0.56,"Share of open incidents affecting more than one geography"
+suspected_duplicates,2,"Number of description clusters with more than one incident"
