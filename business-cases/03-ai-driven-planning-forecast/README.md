@@ -61,6 +61,8 @@ The model is structured as a continuous intelligence loop:
 
 The objective is not higher predictive accuracy alone, but faster and more confident decisions grounded in transparent trade-offs.
 
+![Operating Model - AI-augmented Planning System](assets/visuals/planning-diagram.png)
+
 ---
 
 ### B.2. Tooling & Implementation Approach
