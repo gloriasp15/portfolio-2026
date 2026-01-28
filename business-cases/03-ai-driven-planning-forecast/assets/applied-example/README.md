@@ -63,9 +63,17 @@ These frictions reduce the reliability of manual reporting and explain why execu
 
 ---
   
-- B. **Logic**: normalisation and scenario logic
+- **B. Logic**: [Logic Pipeline](.../assets/applied-example/logic_pipeline.py)
 
+Starting from a manually maintained backlog file with inconsistent formats, missing information and duplicated entries, the **script loads the data AS-IS** and applies a best-effort approach to date parsing. Rather than correcting invalid or missing dates, it **flags** them and **uses available information** to calculate simple ageing indicators.
 
+Basic quality signals are derived by identifying missing timestamps, ambiguous ownership and inconsistent or overly brief descriptions. Potential duplicate incidents are highlighted through lightweight text normalisation and similarity grouping, without enforcing automatic de-duplication.
+
+The output of this layer is not a cleaned dataset, but a small **set of structured signals that make operational frictions explicit** and comparable. These signals are designed to support prioritisation and discussion, not to produce definitive conclusions.
+
+- Python-based logic applied to exported backlog snapshots
+- Owned by Finance (FP&A) teams, with close involvement from Operations and selective support from Analytics and IT
+- Designed to run in standard analytics environments, such as local Python setups, shared notebook-based workflows or enterprise analytics platforms (e.g. Databricks)
 
 ---
 - **Interpretation**: narrative synthesis  
