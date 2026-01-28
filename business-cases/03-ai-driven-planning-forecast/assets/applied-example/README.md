@@ -82,9 +82,11 @@ The output of this layer is not a cleaned dataset, but a small **set of structur
 🔗 [Suspected Duplicates](assets/applied-example/script02-suspected_duplicates.csv): List of incident clusters with high semantic similarity. It surfaces potential duplicated work caused by lack of coordination across teams and geographies.
 
 ---
-### C. Interpretation: [Narrative Layer](assets/applied-example/narrative_layer.py)
+### C. Interpretation 
 
-## C.1. Interpretation — How Narrative Is Generated
+[Narrative Layer](assets/applied-example/narrative_layer.py)
+
+#### C.1. Interpretation — How Narrative Is Generated
 
 The interpretation layer consumes the structured outputs produced by the logic layer (`signals_summary.csv` and `suspected_duplicates.csv`) and uses **Large Language Models to convert them into executive-ready narrative**.
 
@@ -98,7 +100,7 @@ This separation between logic and narrative introduces traceability and control,
 
 ---
 
-## C.2. From Manual Interpretation to LLM-based Narrative  
+#### C.2. From Manual Interpretation to LLM-based Narrative  
 
 | Stage | How narrative was generated | Limitations |
 |---|---|---|
@@ -112,7 +114,7 @@ Narrative creation moves from a manual, person-dependent activity to a reproduci
 
 --- 
 
-### C.3. Why LLMs Change the Game Here
+#### C.3. Why LLMs Change the Game Here
 
 | Capability | Before | With LLMs |
 |---|---|---|
@@ -126,7 +128,7 @@ Narrative creation moves from a manual, person-dependent activity to a reproduci
 
 ---
 
-## C.4. LLM Technologies Used (Illustrative)
+#### C.4. LLM Technologies Used (Illustrative)
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -136,8 +138,6 @@ Narrative creation moves from a manual, person-dependent activity to a reproduci
 | Enterprise access | Internal GenAI platforms or governed APIs | Security, auditability and access control |
 
 > The example remains vendor-agnostic. Technologies listed illustrate typical enterprise-grade choices rather than fixed implementation requirements.
-
----
 
 **One-line anchor**
 
