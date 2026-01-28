@@ -60,7 +60,7 @@ The diagram bellow captures the shift from static planning cycles to a living sy
 
 ---
 
-### B.1.1. Framing — Business Drivers
+#### B.1.1. Framing — Business Drivers
 
 (Outer spiral, left side)
 
@@ -68,7 +68,7 @@ The loop starts with **business drivers and planning inputs**, represented by th
 
 The spiral shape reflects that these inputs are **not static**: assumptions evolve, priorities shift and signals continuously reshape what the organization needs to test through planning.
 
-### B.1.2. Exploration — AI-Augmented Planning System
+#### B.1.2. Exploration — AI-Augmented Planning System
 
 (Inner circle at the core)
 
@@ -78,7 +78,7 @@ The GenAI layer acts as an enabler within this core, synthesising outputs across
 
 The reduced size of the inner circle is intentional: **AI supports the process, but does not dominate it**.
 
-### B.1.3. Learning — Intelligence Outputs and Feedback
+#### B.1.3. Learning — Intelligence Outputs and Feedback
 
 (Outbound curve to the right)
 
@@ -108,7 +108,7 @@ Tooling Layers:
   Power BI / Tableau, Notion and executive-ready PDFs or slides  
 ---
 
-### B.2.1. Forecast & Scenario Engine
+#### B.2.1. Forecast & Scenario Engine
 
 This layer provides the analytical backbone of the model. Existing FP&A logic is reused to model business drivers, test scenarios and quantify trade-offs under different assumptions.
 
@@ -119,11 +119,8 @@ Illustrative tooling:
 - **SQL** for data preparation and aggregation, ensuring scenarios are built on reconciled and repeatable inputs
 - And existing **FP&A models** as baseline inputs, preserving business logic, ownership and validation
 
-Artefact: 
-Illustrates how business drivers are translated into scenario-based financial outcomes, enabling structured comparison of strategic options.
 
-
-### B.2.2. GenAI Narrative Layer
+#### B.2.2. GenAI Narrative Layer
 
 This layer provides the **interpretation and sense-making capability** of the model. Analytical outputs and scenario results are translated into decision intelligence that can be readily consumed by executive stakeholders.
 
@@ -134,10 +131,8 @@ Illustrative tooling:
 - **Prompt logic** designed to highlight risks, deltas and decision implications rather than raw metrics
 - Narrative outputs aligned across scenarios to support comparison and discussion
 
-Artefact: 
-Shows how scenario results are converted into concise executive-level insights, emphasising trade-offs and decision implications.
 
-### B.2.3. Reporting & Delivery Layer
+#### B.2.3. Reporting & Delivery Layer
 
 This layer is where planning intelligence enters real decision-making. Rather than adding new reporting structures, insights are embedded into existing executive forums and planning rhythms.
 
@@ -148,32 +143,43 @@ Illustrative tooling
 - Narrative formats designed for executive discussion and follow-up
 - Integration with existing planning and reporting rituals
 
-Artefact:
-Illustrates how decision intelligence can be surfaced in a concise, executive-ready format to support prioritisation and action
+
+### B.3 Applied Example — Operational Backlog Case
+
+To illustrate how the proposed planning and decision intelligence model operates in practice, an applied example has been developed **based on a synthetic operational backlog scenario**.
+
+The example demonstrates how fragmented operational data is progressively transformed into structured signals, AI-enabled interpretation and executive-facing outputs, following the same logic and tooling principles described above.
+
+The full applied example, including data artefacts, logic scripts and executive outputs, is available in the following folder:[View Applied Example](assets/applied-example)
+
+
+### B.4. Roll-out Timeline
+
+The following timeline illustrates a realistic, phased rollout of the proposed decision intelligence model, based on incremental value delivery rather than full-scale system replacement.
+
+
+| Phase | Scope | Key Activities | Outputs | Indicative Timing |
+|------|------|----------------|---------|------------------|
+| Phase 1 | Data framing & signal logic | Identify core planning drivers, ingest operational snapshots, implement lightweight signal logic | Structured signals (e.g. backlog pressure, ageing, coordination frictions) | Weeks 1–3 |
+| Phase 2 | AI-enabled interpretation | Define narrative prompts, integrate LLM interpretation layer, generate executive-ready insights | AI-interpreted insights and executive interpretation artefacts | Weeks 4–7 |
+| Phase 3 | Executive delivery | Embed outputs into existing planning and review forums, design executive dashboard formats | Executive dashboard and decision narrative | Weeks 8–12 |
+| Phase 4 | Feedback & refinement | Capture decision outcomes, refine assumptions and signal logic, improve narrative relevance | Improved signal quality and decision confidence | Ongoing |
 
 ---
 
-## B.3. Roll-out Timeline
-
-Implementation follows an adoption-led, phased approach:
-
-- **Weeks 1–3**  
-  Planning foundations, business driver alignment and baseline models  
-
-- **Weeks 4–7**  
-  Scenario simulation and GenAI intelligence layer integration  
-
-- **Weeks 8–12**  
-  Executive adoption, governance and iteration  
-
----
 
 ## C. Effectiveness Metrics
+
+The effectiveness of the AI-driven planning & forecast model is measured through governance and operational KPIs.
+
+Rather than assessing predictive accuracy in isolation, the metrics below evaluate whether the model improves decision speed, confidence, coordination and learning across planning cycles.
 
 - Forecast accuracy improvement  
 - Reduction in planning cycle time  
 - Time-to-decision reduction  
 - Executive confidence in planning outputs  
+
+➡️ (See supporting artefacts for detailed role definitions and interactions.)
 
 ---
 
