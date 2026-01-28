@@ -56,6 +56,10 @@ The model is structured as a continuous intelligence loop:
 
 ![Operating Model - AI-augmented Planning System](assets/visuals/planning-diagram.png)
 
+The diagram bellow captures the shift from static planning cycles to a living system that learns from decisions and real-world outcomes.
+
+---
+
 ### B.1.1. Framing — Business Drivers
 
 (Outer spiral, left side)
@@ -92,6 +96,8 @@ The solution is designed to be lightweight, modular and enterprise-ready, reflec
 
 Tooling choices are illustrative and derived from practical exposure to common enterprise stacks. The emphasis is placed on how components interact to enable decision intelligence, not on the tools themselves.
 
+Tooling Layers: 
+
 - **Forecast & Scenario Engine**  
   Python, SQL and existing FP&A models  
 
@@ -100,6 +106,50 @@ Tooling choices are illustrative and derived from practical exposure to common e
 
 - **Reporting & Delivery Layer**  
   Power BI / Tableau, Notion and executive-ready PDFs or slides  
+---
+
+### B.2.1. Forecast & Scenario Engine
+
+This layer provides the analytical backbone of the model. Existing FP&A logic is reused to model business drivers, test scenarios and quantify trade-offs under different assumptions.
+
+The engine is designed to support **comparability and decision relevance**, enabling consistent scenario analysis under changing conditions.
+
+Illustrative tooling:
+- **Python** for driver-based scenario logic, allowing assumptions (e.g. demand, pricing, costs) to be adjusted programmatically and recalculated consistently
+- **SQL** for data preparation and aggregation, ensuring scenarios are built on reconciled and repeatable inputs
+- And existing **FP&A models** as baseline inputs, preserving business logic, ownership and validation
+
+Artefact: 
+Illustrates how business drivers are translated into scenario-based financial outcomes, enabling structured comparison of strategic options.
+
+
+### B.2.2. GenAI Narrative Layer
+
+This layer provides the **interpretation and sense-making capability** of the model. Analytical outputs and scenario results are translated into decision intelligence that can be readily consumed by executive stakeholders.
+
+Rather than generating forecasts or recommendations, the layer focuses on synthesis, prioritisation and clarity, ensuring that changes across scenarios are surfaced consistently and that trade-offs are made explicit as planning assumptions evolve.
+
+Illustrative tooling: 
+- **GPT-based LLMs** for synthesising scenario outputs into structured executive narratives
+- **Prompt logic** designed to highlight risks, deltas and decision implications rather than raw metrics
+- Narrative outputs aligned across scenarios to support comparison and discussion
+
+Artefact: 
+Shows how scenario results are converted into concise executive-level insights, emphasising trade-offs and decision implications.
+
+### B.2.3. Reporting & Delivery Layer
+
+This layer is where planning intelligence enters real decision-making. Rather than adding new reporting structures, insights are embedded into existing executive forums and planning rhythms.
+
+By surfacing intelligence where decisions already happen, the model reduces friction, reinforces trust and increases follow-through from analysis to action.
+
+Illustrative tooling
+- **BI platforms** for visual comparison of scenarios and key drivers (e.g. PowerBI, Tableau)
+- Narrative formats designed for executive discussion and follow-up
+- Integration with existing planning and reporting rituals
+
+Artefact:
+Illustrates how decision intelligence can be surfaced in a concise, executive-ready format to support prioritisation and action
 
 ---
 
