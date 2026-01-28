@@ -4,7 +4,6 @@ This applied example accompanies the business case and illustrates how the propo
 
 Due to confidentiality constraints, real operational data cannot be exposed. All datasets used in this example are **synthetic**, deliberately constructed to reflect typical patterns, frictions and constraints observed in real-world environments. The objective is illustrative rather than exhaustive.
 
----
 
 ## Context
 
@@ -12,7 +11,6 @@ The example is grounded in a cross-country operational setting where incidents a
 
 This process introduces delays, inconsistencies and interpretation risk, limiting the usefulness of the backlog as a reliable input for decision-making.
 
----
 
 ## Purpose of the Example
 
@@ -26,7 +24,6 @@ Specifically, it shows how:
 
 The focus is on **decision relevance and reliability**, not on automation or technical optimisation.
 
----
 
 ## Scope
 
@@ -40,7 +37,6 @@ Out of scope:
 - Advanced predictive modelling  
 - Tool-specific implementations or vendor-dependent implementations 
 
----
 
 ## Structure
 
