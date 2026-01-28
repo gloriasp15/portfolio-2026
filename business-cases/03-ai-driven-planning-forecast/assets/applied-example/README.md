@@ -144,6 +144,9 @@ LLMs replace manual synthesis with semantic interpretation, transforming structu
 
 ---
 
-## D. Output: executive-ready intelligence summary  
+## D. Output: [Executive Intelligence Dashboard](executive_summary.md) 
 
 The main value of this example lies in the applied logic and outputs, which demonstrate how the decision intelligence loop operates in practice.
+
+The (`executive_summary.md`) is derived from an interpreted signal layer [Executive Interpretation](executive-decision-snapshot.csv), generated through *LLM-based synthesis* rather than directly from operational data.
+
