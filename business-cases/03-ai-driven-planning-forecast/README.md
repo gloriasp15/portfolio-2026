@@ -1,7 +1,9 @@
 # 03. AI-Driven Planning & Forecast
 
 In volatile and fast-moving contexts, planning often fails not because of lack of data, but because it struggles to keep up with decision-making. 
+
 Based on first-hand experience across complex, multi-stakeholder environments, this business case reflects how planning and forecasting actually operate under real-world constraints. Rather than promoting a specific technology or vendor, it captures practical patterns observed in how organizations test assumptions, navigate uncertainty and support executive decision-making when conditions change faster than planning cycles.
+
 The focus is on translating that empirical understanding into an AI-enabled planning model that strengthens scenario exploration, insight generation and decision confidence, without over-engineering or theoretical abstraction. 
 
 In other words, to make the most of both existing capabilities and the future AI-enabled workforce.
