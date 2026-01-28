@@ -68,6 +68,8 @@ The loop starts with **business drivers and planning inputs**, represented by th
 
 The spiral shape reflects that these inputs are **not static**: assumptions evolve, priorities shift and signals continuously reshape what the organization needs to test through planning.
 
+---
+
 #### B.1.2. Exploration — AI-Augmented Planning System
 
 (Inner circle at the core)
@@ -77,6 +79,8 @@ At the centre of the model sits the **AI-augmented Planning System**, where fore
 The GenAI layer acts as an enabler within this core, synthesising outputs across scenarios and translating analytical results into coherent decision intelligence, without displacing human ownership of judgment.
 
 The reduced size of the inner circle is intentional: **AI supports the process, but does not dominate it**.
+
+---
 
 #### B.1.3. Learning — Intelligence Outputs and Feedback
 
@@ -119,6 +123,7 @@ Illustrative tooling:
 - **SQL** for data preparation and aggregation, ensuring scenarios are built on reconciled and repeatable inputs
 - And existing **FP&A models** as baseline inputs, preserving business logic, ownership and validation
 
+---
 
 #### B.2.2. GenAI Narrative Layer
 
@@ -131,6 +136,7 @@ Illustrative tooling:
 - **Prompt logic** designed to highlight risks, deltas and decision implications rather than raw metrics
 - Narrative outputs aligned across scenarios to support comparison and discussion
 
+---
 
 #### B.2.3. Reporting & Delivery Layer
 
@@ -143,6 +149,7 @@ Illustrative tooling
 - Narrative formats designed for executive discussion and follow-up
 - Integration with existing planning and reporting rituals
 
+---
 
 ### B.3 Applied Example — Operational Backlog Case
 
@@ -154,6 +161,7 @@ The example demonstrates how fragmented operational data is progressively transf
 
 [View Applied Example](assets/applied-example)
 
+---
 
 ### B.4. Roll-out Timeline
 
@@ -168,7 +176,6 @@ The following timeline illustrates a realistic, phased rollout of the proposed d
 | Phase 4 | Feedback & refinement | Capture decision outcomes, refine assumptions and signal logic, improve narrative relevance | Improved signal quality and decision confidence | Ongoing |
 
 ---
-
 
 ## C. Effectiveness Metrics
 
