@@ -46,7 +46,7 @@ Out of scope:
 
 The example is organised as a simple pipeline aligned with the solution model:
 
-- **A. Input**: [Synthetic Backlog Snapshot](.../assets/applied-example/backlog_synthetic.csv)
+- **A. Input**: [Synthetic Backlog Snapshot](/assets/applied-example/backlog_synthetic.csv)
 
 > All data used in this example has been synthetically generated using AI, based on patterns observed in a real operational case. No confidential or proprietary data has been exposed, in line with data protection and confidentiality policies.
 
@@ -63,7 +63,7 @@ These frictions reduce the reliability of manual reporting and explain why execu
 
 ---
   
-- **B. Logic**: [Logic Pipeline](.../assets/applied-example/logic_pipeline.py)
+- **B. Logic**: [Logic Pipeline](/assets/applied-example/logic_pipeline.py)
 
 Starting from a manually maintained backlog file with inconsistent formats, missing information and duplicated entries, the **script loads the data AS-IS** and applies a best-effort approach to date parsing. Rather than correcting invalid or missing dates, it **flags** them and **uses available information** to calculate simple ageing indicators.
 
