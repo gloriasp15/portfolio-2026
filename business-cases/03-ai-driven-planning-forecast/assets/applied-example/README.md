@@ -82,13 +82,69 @@ The output of this layer is not a cleaned dataset, but a small **set of structur
 🔗 [Suspected Duplicates](assets/applied-example/script02-suspected_duplicates.csv): List of incident clusters with high semantic similarity. It surfaces potential duplicated work caused by lack of coordination across teams and geographies.
 
 ---
-### C. Interpretation: narrative synthesis  
+### C. Interpretation: [Narrative Layer](assets/applied-example/narrative_layer.py)
 
+## C.1. Interpretation — How Narrative Is Generated
 
+The interpretation layer consumes the structured outputs produced by the logic layer (`signals_summary.csv` and `suspected_duplicates.csv`) and uses **Large Language Models to convert them into executive-ready narrative**.
 
+Unlike traditional reporting approaches, the LLM does not:
+- Access raw operational data
+- Perform calculations and does not automate prioritisation.
 
+Its role is to **interpret pre-defined signals, identify patterns and tensions, and express their implications** in clear, decision-oriented language.
+
+This separation between logic and narrative introduces traceability and control, while significantly reducing the manual effort previously required to transform fragmented operational data into executive insight.
 
 ---
-- **Output**: executive-ready intelligence summary  
+
+## C.2. From Manual Interpretation to LLM-based Narrative  
+
+| Stage | How narrative was generated | Limitations |
+|---|---|---|
+| Manual reporting | Analysts reviewed Excel files and wrote PowerPoint slides by hand | Time-consuming, inconsistent, highly dependent on individual judgement |
+| Rule-based summaries | Static KPIs and filters in Excel or BI tools | Effective for numbers, ineffective for unstructured text |
+| Keyword search & heuristics | Basic text filters in ticketing systems | No semantic understanding, high risk of missing duplicates |
+| LLM-based interpretation | LLMs interpret structured signals and generate narrative | Scales interpretation while preserving human decision ownership |
+
+**Key shift:**  
+Narrative creation moves from a manual, person-dependent activity to a reproducible interpretation layer grounded in explicit signals.
+
+--- 
+
+### C.3. Why LLMs Change the Game Here
+
+| Capability | Before | With LLMs |
+|---|---|---|
+| Unstructured text handling | Manual reading | Semantic interpretation |
+| Multi-language understanding | Manual translation or ignored | Native cross-language reasoning |
+| Duplicate detection | Memory or intuition | Semantic similarity |
+| Narrative consistency | Analyst-dependent | Systematically reproducible |
+| Executive readiness | High manual effort | Low marginal cost per iteration |
+
+**LLMs reduce cognitive load, not decision accountability.**
+
+---
+
+## C.4. LLM Technologies Used (Illustrative)
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| Narrative synthesis | GPT-4 / GPT-4.1 | Executive-grade reasoning and structured narrative |
+| Fast iteration | GPT-4o or smaller GPT variants | Low-latency drafting and iteration |
+| Semantic similarity | Embedding models (e.g. `text-embedding-3-large`) | Detection of duplicate or related incidents |
+| Enterprise access | Internal GenAI platforms or governed APIs | Security, auditability and access control |
+
+> The example remains vendor-agnostic. Technologies listed illustrate typical enterprise-grade choices rather than fixed implementation requirements.
+
+---
+
+**One-line anchor**
+
+LLMs replace manual synthesis with semantic interpretation, transforming structured signals into consistent executive narrative without automating decisions or altering underlying data.
+
+---
+
+## D. Output: executive-ready intelligence summary  
 
 The main value of this example lies in the applied logic and outputs, which demonstrate how the decision intelligence loop operates in practice.
