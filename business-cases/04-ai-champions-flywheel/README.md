@@ -54,16 +54,19 @@ Instead of relying on top-down deployment, the model distributes ownership acros
 
 The model is built around four complementary pillars, each targeting a critical adoption barrier:
 
+
 **01. Role Modelling — Ambassadorship**  
 
 Adoption starts locally: at the team level. This pillar establishes a distributed network of AI champions acting as role models, responsible for translating AI into tangible behaviors and business impact.
 
 AI Champions are not only early adopters, but **visible references of how AI should be used** within their domain, reinforcing best practices and accelerating adoption through proximity.
 
+
 **02. Awareness — AI Democratization**  
 AI adoption does not scale through tools, but through shared understanding. This pillar builds the narrative, visibility and cultural alignment required to position AI as a core business capability.
 
 By making use cases visible, relatable and repeatable, it transforms isolated experimentation into collective momentum, enabling adoption to extend beyond early adopters and into the broader organization through internal campaigns, leadership storytelling and shared narratives.  
+
 
 **03. Capability Building — Upskilling**  
 Build role-based AI capabilities through practical training, real use cases and continuous support, enabling employees to confidently integrate AI into their daily workflows. The target is to ensure a transition from occasional usage to **consistent, value-generating** adoption.
@@ -75,6 +78,7 @@ The approach combines:
   - Reusable assets: prompts, workflows, guides and playbooks
   - Ongoing support mechanisms (office hours, champions)
 
+
 **04. AI Discipline — Governance & Scaling**  
 To scale AI effectively, adoption must be supported by clear structure and accountability. This pillar embeds lightweight governance into business operations, ensuring that AI usage evolves from isolated initiatives into a consistent and reliable capability.
 
@@ -83,6 +87,8 @@ AI is integrated into core processes and strategic initiatives from the outset, 
 This includes evaluating AI systems based on their **level of risk** and applying appropriate controls, ensuring responsible deployment and compliance from early stages. In this context, certified methodologies (e.g. *Ethical AI Assessment Frameworks*) can be leveraged to standardize evaluation and decision-making.
 
 Clear guidelines further ensure responsible usage and proper escalation when needed, enabling AI to scale in a controlled, compliant and business-aligned way across the organization.
+
+➡️ AI Champions Pillars Deep Dive *(See supporting artefact for detailed pillar design, roles, actions and governance mechanisms.)*
 
 ---
 
