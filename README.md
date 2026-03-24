@@ -28,5 +28,5 @@ e-commerce and broader operational contexts.
   management within established operating models
 
 - **AI Champions Flywheel**  
-  A continuous adoption model that embeds
-  AI into how an organization work, learn and scale
+  Driving AI adoption across teams by embedding AI into daily workflows
+  through a structured enablement model
