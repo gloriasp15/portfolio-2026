@@ -46,7 +46,7 @@ The **AI Champions Flywheel** addresses this by shifting AI from a tool-based in
 
 Instead of relying on top-down deployment, the model distributes ownership across the organization, enabling teams to progressively integrate AI into their workflows while maintaining alignment and control.
 
-![AI Champions Flywheel](assets/ai-champions-flywheel.png)
+![AI Champions Flywheel](assets/visuals/AI-Champions-Flywheel.png)
 
 ---
 
