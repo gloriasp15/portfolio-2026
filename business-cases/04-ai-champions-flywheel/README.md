@@ -29,7 +29,7 @@ This creates a gap between AI potential and realized impact, where tools exist b
 - Fragmented experimentation across teams  
 - AI perceived as a technical initiative rather than a business capability  
 
-### Impact on Operations
+### Impact on the Organization
 
 - Untapped AI productivity gains  
 - Slow discovery of high-value use cases  
