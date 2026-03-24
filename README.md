@@ -18,11 +18,14 @@ e-commerce and broader operational contexts.
 
 - 🗼 **The Commercial Babel Tower**  
   Reframing retail, e-commerce and supply operations as a single
-  decision system through shared operational signals.
+  decision system through shared operational signals
 
 - **Decision Ownership & Operating Models**  
-  Structuring accountability, governance and execution across teams.
+  Structuring accountability, governance and execution across teams
 
-- **AI-Driven Planning & Performance**  
+- **AI-Driven Planning & Forecast**  
   Applying AI to support planning, forecasting and performance
-  management within established operating models.
+  management within established operating models
+
+  - ⚙️ **AI Champions Flywheel**
+    A continuous adoption model that embeds AI into how an organization work, learn and scale
