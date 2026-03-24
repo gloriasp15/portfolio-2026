@@ -16,7 +16,7 @@ e-commerce and broader operational contexts.
 
 ## Selected Business Cases
 
-- 🗼 **The Commercial Babel Tower**  
+- **The Commercial Babel Tower**  
   Reframing retail, e-commerce and supply operations as a single
   decision system through shared operational signals
 
@@ -27,5 +27,5 @@ e-commerce and broader operational contexts.
   Applying AI to support planning, forecasting and performance
   management within established operating models
 
-- ⚙️ **AI Champions Flywheel**
+- **AI Champions Flywheel**
   A continuous adoption model that embeds AI into how an organization work, learn and scale
