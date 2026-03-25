@@ -1,4 +1,4 @@
-## C. Effectiveness Metrics  
+## AI Champions Flywheel - Effectiveness Metrics  
 
 The effectiveness of the AI Champions Flywheel is measured through a focused set of KPIs capturing adoption, activation, capability and business impact.  
 
