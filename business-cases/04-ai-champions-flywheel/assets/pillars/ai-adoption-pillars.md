@@ -9,7 +9,7 @@ Rather than a one-off rollout, this approach distributes ownership across the or
 ---
 
 <p align="center">
-  <img src="/assets/visuals/AI-Champions-Flywheel.png" width="600"/>
+  <img src="../visuals/AI-Champions-Flywheel.png" width="600"/>
 </p>
 
 <details>
@@ -136,13 +136,13 @@ Enhance understanding of AI as a critical enabler of business performance and dr
 
 ### Tools
 
-- **SharePoint**: AI Hub / Knowledge Center
+- **SharePoint**: AI Hub / Knowledge Center  
   → Repository of AI use cases, guidelines and best practices
-- **Viva Engage** + **Teams Announcements**
+- **Viva Engage** + **Teams Announcements**  
   → Campaign distribution, internal storytelling and engagement
-- **Power BI**
+- **Power BI**  
   → Visualizing impact of AI use cases (adoption, efficiency, outcomes)
-- **Microsoft Stream / Clipchamp**
+- **Microsoft Stream / Clipchamp**  
   → Short-form video content to explain AI concepts and use cases
 
 ---
@@ -199,13 +199,13 @@ Build the skills and capabilities required to enable effective and responsible A
 
 ### Tools
 
-- **Microsoft Learn / Viva Learning**
+- **Microsoft Learn / Viva Learning**  
   → Structured learning paths tailored to roles
-- **Azure Machine Learning / Azure OpenAI**
+- **Azure Machine Learning / Azure OpenAI**  
   → Hands-on exposure to real AI capabilities
-- **Databricks** (Azure integration)
+- **Databricks** (Azure integration)  
   → Advanced analytics and model experimentation environment
-- **GitHub** (this portfolio included 😉)
+- **GitHub** (this portfolio included 😉)  
   → Sharing code, templates and structured use cases
 
 ---
@@ -258,16 +258,16 @@ Ensure safe, responsible and scalable AI adoption through governance frameworks 
 
 ### Tools
 
-- **Microsoft Purview**
+- **Microsoft Purview**  
   → Data governance, cataloging, lineage and policy enforcement
-- **Azure AI Studio / Model Registry**
+- **Azure AI Studio / Model Registry**  
   → Model lifecycle management, versioning and traceability
-- **Power Platform** (Power Apps + Power Automate)
-  → Use case intake forms (AI Champions submissions)
+- **Power Platform** (Power Apps + Power Automate)  
+  → Use case intake forms (AI Champions submissions)  
   → Workflow automation for validation and approval
-- **Oxethica**
+- **Oxethica**  
   → AI risk assessment aligned with EU AI Act (certified capability)
-- **ServiceNow**
+- **ServiceNow**  
   → Incident management, escalation and compliance tracking
 
 --- 
