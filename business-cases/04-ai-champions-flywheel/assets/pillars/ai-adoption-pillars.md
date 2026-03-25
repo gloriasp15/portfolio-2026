@@ -66,15 +66,15 @@ AI Champions operate across three key dimensions:
 
 ### Tools
 
-- **Microsoft Teams**: *AI Champions Community*
+- **Microsoft Teams**: *AI Champions Community*  
   → Dedicated channel for champions coordination, peer exchange and visibility
-- **Viva Engage**: Yammer
+- **Viva Engage**: Yammer  
   → Storytelling layer for sharing wins, use cases and recognition across the organization
-- **SharePoint**: Community Hub
+- **SharePoint**: Community Hub  
   → Centralized space for champions directory, materials and initiatives
-- **Microsoft Loop**
-  → Lightweight collaboration for co-creating ideas, use cases and shared think
-  → [AI Use Case Template](assets/templates/ai-use-case-template.md)
+- **Microsoft Loop**  
+  → Lightweight collaboration for co-creating ideas, use cases and shared think  
+  → [AI Use Case Template](../templates/ai-use-case-template.md)
 
 ---
 
