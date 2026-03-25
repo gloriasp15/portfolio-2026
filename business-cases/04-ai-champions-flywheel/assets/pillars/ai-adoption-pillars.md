@@ -74,7 +74,7 @@ AI Champions operate across three key dimensions:
   → Centralized space for champions directory, materials and initiatives
 - **Microsoft Loop**
   → Lightweight collaboration for co-creating ideas, use cases and shared think
-  → [AI Use Case Template](../../assets/templates/ai-use-case-template.md)
+  → [AI Use Case Template](assets/templates/ai-use-case-template.md)
 
 ---
 
