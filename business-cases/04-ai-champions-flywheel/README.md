@@ -300,6 +300,9 @@ This business case includes:
 - AI risk assessment templates (OXETHICA methodology)  
 - KPI tracking framework for adoption, impact and governance
 
+➡️ [AI Champions Effectiveness Metrics](./assets/metrics/README.md)
+*(See supporting artefacts for detailed role definitions and interactions.)*
+
 ---
 
 ## E. Impact Summary – Before vs After  
