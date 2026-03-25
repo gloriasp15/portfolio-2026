@@ -194,7 +194,7 @@ Weeks 0–4        Weeks 5–12                 Weeks 13+
 • Leadership alignment        • Office hours               • Governance reinforced  
 • Initial use cases           • Community activation       • Community expansion  
 
-### D.1.1. Phase 01 — Activation (Weeks 0–4)
+### Phase 01 — Activation (Weeks 0–4)
 
 **Objective**  
 Establish the foundations for AI adoption and generate initial organizational momentum  
@@ -214,7 +214,7 @@ Establish the foundations for AI adoption and generate initial organizational mo
 
 ---
 
-### D.1.2. Phase 02 — Enablement (Weeks 5–12)
+### Phase 02 — Enablement (Weeks 5–12)
 
 **Objective**  
 Build capabilities and enable teams to integrate AI into their daily workflows  
@@ -235,7 +235,7 @@ Build capabilities and enable teams to integrate AI into their daily workflows
 
 ---
 
-### D.1.3. Phase 03 — Scaling (Weeks 13+)
+### Phase 03 — Scaling (Weeks 13+)
 
 **Objective**  
 Embed AI into core operations and scale adoption across the organization  
