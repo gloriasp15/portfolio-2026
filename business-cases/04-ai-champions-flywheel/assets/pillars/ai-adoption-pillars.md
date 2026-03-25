@@ -9,16 +9,15 @@ Rather than a one-off rollout, this approach distributes ownership across the or
 ---
 
 <p align="center">
-  <img src="../assets/visuals/AI-Champions-Flywheel.png" width="600"/>
+  <img src="assets/visuals/AI-Champions-Flywheel.png" width="600"/>
 </p>
-
 ---
 
 <details>
 <summary><b>01. Role Modelling — Champions Network 👥</b></summary>
 
 ### Purpose  
-Establish a network of AI Champions who act as role models, translating AI principles into behaviors and driving adoption within their domains.  
+Establish a network of AI Champions who act as **role models**, translating AI principles into behaviors and driving adoption within their domains.  
 
 ---
 
@@ -48,8 +47,8 @@ AI Champions operate across three key dimensions:
 
 ### Key Mechanisms  
 
-- Initial kickoff to align roles, expectations and behaviors  
-- Active participation in AI programs (sessions, workshops, initiatives)  
+- Initial **kick-off to align roles**, expectations and behaviors  
+- Active participation in **AI programs**: sessions, workshops, among other initiatives  
 - Symbolic and visible actions reinforcing AI adoption  
 - Translation layer between business needs and AI capabilities  
 - Promotion of transparency and escalation on AI-related topics  
@@ -59,10 +58,24 @@ AI Champions operate across three key dimensions:
 ### Actions  
 
 - Promote AI usage within teams and domains  
-- Identify and activate high-impact use cases  
+- Identify and activate **high-impact use cases**  
 - Reinforce AI principles and best practices  
 - Facilitate collaboration across teams  
 - Support adoption of approved tools and solutions  
+
+---
+
+### Tools
+
+- **Microsoft Teams**: *AI Champions Community*
+  → Dedicated channel for champions coordination, peer exchange and visibility
+- **Viva Engage**: Yammer
+  → Storytelling layer for sharing wins, use cases and recognition across the organization
+- **SharePoint**: Community Hub
+  → Centralized space for champions directory, materials and initiatives
+- **Microsoft Loop**
+  → Lightweight collaboration for co-creating ideas, use cases and shared think
+  → [AI Use Case Template](../../assets/templates/ai-use-case-template.md)
 
 ---
 
@@ -122,6 +135,19 @@ Enhance understanding of AI as a critical enabler of business performance and dr
 
 ---
 
+### Tools
+
+- **SharePoint**: AI Hub / Knowledge Center
+  → Repository of AI use cases, guidelines and best practices
+- **Viva Engage** + **Teams Announcements**
+  → Campaign distribution, internal storytelling and engagement
+- **Power BI**
+  → Visualizing impact of AI use cases (adoption, efficiency, outcomes)
+- **Microsoft Stream / Clipchamp**
+  → Short-form video content to explain AI concepts and use cases
+
+---
+
 ### Outcomes  
 
 - Increased visibility of AI across the organization  
@@ -172,6 +198,19 @@ Build the skills and capabilities required to enable effective and responsible A
 
 ---
 
+### Tools
+
+- **Microsoft Learn / Viva Learning**
+  → Structured learning paths tailored to roles
+- **Azure Machine Learning / Azure OpenAI**
+  → Hands-on exposure to real AI capabilities
+- **Databricks** (Azure integration)
+  → Advanced analytics and model experimentation environment
+- **GitHub** (this portfolio included 😉)
+  → Sharing code, templates and structured use cases
+
+---
+
 ### Outcomes  
 
 - Increased AI literacy across teams  
@@ -217,6 +256,22 @@ Ensure safe, responsible and scalable AI adoption through governance frameworks 
 - Promote usage of approved tools and models  
 
 ---
+
+### Tools
+
+- **Microsoft Purview**
+  → Data governance, cataloging, lineage and policy enforcement
+- **Azure AI Studio / Model Registry**
+  → Model lifecycle management, versioning and traceability
+- **Power Platform** (Power Apps + Power Automate)
+  → Use case intake forms (AI Champions submissions)
+  → Workflow automation for validation and approval
+- **Oxethica**
+  → AI risk assessment aligned with EU AI Act (certified capability)
+- **ServiceNow**
+  → Incident management, escalation and compliance tracking
+
+--- 
 
 ### Outcomes  
 
