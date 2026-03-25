@@ -12,6 +12,8 @@ Rather than a one-off rollout, this approach distributes ownership across the or
   <img src="../visuals/AI-Champions-Flywheel.png" width="600"/>
 </p>
 
+---
+
 <details>
 <summary><b>01. Role Modelling — Champions Network 👥</b></summary>
 
