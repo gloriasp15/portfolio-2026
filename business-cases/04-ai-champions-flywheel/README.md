@@ -55,20 +55,22 @@ Instead of relying on top-down deployment, the model distributes ownership acros
 The model is built around four complementary pillars, each targeting a critical adoption barrier:
 
 
-→ **01. Role Modelling — Ambassadorship**  
+→ **B.1.1. Role Modelling — Ambassadorship**  
 
 Adoption starts locally: at the team level. This pillar establishes a distributed network of AI champions acting as role models, responsible for translating AI into tangible behaviors and business impact.
 
 AI Champions are not only early adopters, but **visible references of how AI should be used** within their domain, reinforcing best practices and accelerating adoption through proximity.
 
+---
 
-→ **02. Awareness — AI Democratization**  
+→ **B.1.2. Awareness — AI Democratization**  
 AI adoption does not scale through tools, but through shared understanding. This pillar builds the narrative, visibility and cultural alignment required to position AI as a core business capability.
 
 By making use cases visible, relatable and repeatable, it transforms isolated experimentation into collective momentum, enabling adoption to extend beyond early adopters and into the broader organization through internal campaigns, leadership storytelling and shared narratives.  
 
+---
 
-→ **03. Capability Building — Upskilling**  
+→ **B.1.3. Capability Building — Upskilling**  
 Build role-based AI capabilities through practical training, real use cases and continuous support, enabling employees to confidently integrate AI into their daily workflows. The target is to ensure a transition from occasional usage to **consistent, value-generating** adoption.
 
 The approach combines: 
@@ -78,8 +80,9 @@ The approach combines:
   - Reusable assets: prompts, workflows, guides and playbooks
   - Ongoing support mechanisms (office hours, champions)
 
+---
 
-→ **04. AI Discipline — Governance & Scaling**  
+→ **B.1.4. AI Discipline — Governance & Scaling**  
 To scale AI effectively, adoption must be supported by clear structure and accountability. This pillar embeds lightweight governance into business operations, ensuring that AI usage evolves from isolated initiatives into a consistent and reliable capability.
 
 AI is integrated into core processes and strategic initiatives from the outset, with defined ownership across business and data roles. Use cases are assessed based on **value, risk and scalability**, complemented by **structured risk classification** aligned with emerging regulatory frameworks such as the EU AI Act.
@@ -88,11 +91,13 @@ This includes evaluating AI systems based on their **level of risk** and applyin
 
 Clear guidelines further ensure responsible usage and proper escalation when needed, enabling AI to scale in a controlled, compliant and business-aligned way across the organization.
 
+---
+
 ➡️ [AI Champions Pillars Deep Dive](assets/pillars/ai-adoption-pillars.md) *(See supporting artefact for detailed pillar design, roles, actions and governance mechanisms.)*
 
 ---
 
-### B2. Flywheel Dynamics  
+### B.2. Flywheel Dynamics  
 
 The effectiveness of the model lies not in each pillar individually, but in how they reinforce each other over time. This dynamic enables AI to transition from isolated experimentation to a sustained, organization-wide capability.
 
@@ -177,7 +182,7 @@ The rollout of the AI Champions Flywheel follows a phased approach, progressivel
 
 ---
 
-### Timeline Overview  
+### D.1. Timeline Overview  
 
 Weeks 0–4        Weeks 5–12                 Weeks 13+  
 ┌──────────────┐ ┌──────────────────────┐ ┌────────────────────────┐
@@ -189,7 +194,7 @@ Weeks 0–4        Weeks 5–12                 Weeks 13+
 • Leadership alignment        • Office hours               • Governance reinforced  
 • Initial use cases           • Community activation       • Community expansion  
 
-### Phase 01 — Activation (Weeks 0–4)
+### D.1.1. Phase 01 — Activation (Weeks 0–4)
 
 **Objective**  
 Establish the foundations for AI adoption and generate initial organizational momentum  
@@ -209,7 +214,7 @@ Establish the foundations for AI adoption and generate initial organizational mo
 
 ---
 
-### Phase 02 — Enablement (Weeks 5–12)
+### D.1.2. Phase 02 — Enablement (Weeks 5–12)
 
 **Objective**  
 Build capabilities and enable teams to integrate AI into their daily workflows  
@@ -230,7 +235,7 @@ Build capabilities and enable teams to integrate AI into their daily workflows
 
 ---
 
-### Phase 03 — Scaling (Weeks 13+)
+### D.1.3. Phase 03 — Scaling (Weeks 13+)
 
 **Objective**  
 Embed AI into core operations and scale adoption across the organization  
@@ -250,7 +255,7 @@ Embed AI into core operations and scale adoption across the organization
 
 ---
 
-### Operating Environment
+### D.2. Operating Environment
 
 The model is embedded within a Microsoft Teams-centered ecosystem:
 
@@ -266,7 +271,7 @@ Supporting tools include:
 
 ---
 
-### Disclaimer
+### D.3. Disclaimer
 
 While this implementation is illustrated within a Microsoft Teams ecosystem, the model is **technology-agnostic and can be adapted to other environments** (e.g. Slack, Google Workspace or internal platforms), provided that collaboration, visibility and structured enablement are maintained.
 
@@ -287,7 +292,8 @@ Rather than focusing on isolated tool usage, the metrics below evaluate whether 
 - % of use cases assessed under AI risk and governance frameworks  
 - Trust in AI outputs and reduction of shadow AI usage  
 
-➡️ AI Champions Effectiveness Metrics *(See supporting artefacts for KPI definitions and tracking framework.)*  
+➡️ [AI Champions Effectiveness Metrics](./assets/metrics/README.md)
+*(See supporting artefacts for detailed role definitions and interactions.)*
 
 ---
 
@@ -299,9 +305,6 @@ This business case includes:
 - AI Use Case Template (identification and scaling approach)    
 - AI risk assessment templates (OXETHICA methodology)  
 - KPI tracking framework for adoption, impact and governance
-
-➡️ [AI Champions Effectiveness Metrics](./assets/metrics/README.md)
-*(See supporting artefacts for detailed role definitions and interactions.)*
 
 ---
 
