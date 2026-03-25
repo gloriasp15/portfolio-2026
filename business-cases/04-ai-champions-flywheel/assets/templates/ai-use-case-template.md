@@ -157,8 +157,6 @@ Within the AI Champions Flywheel, this template plays a key role in:
 
 Use cases captured through this template feed into a **centralized repository**, enabling reuse, prioritization and scaling.
 
----
-
 ### ⚙️ Operational integration (Microsoft ecosystem)
 
 While this repository provides a Markdown version of the template, in a real-world implementation it would typically be deployed as:
