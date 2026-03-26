@@ -129,6 +129,8 @@ To ensure AI adoption translates into real impact, the model is reinforced throu
 
 These principles are not conceptual statements, but **practical lenses** that shape day-to-day decisions and actions.
 
+![Behavioral Activation Layer](assets/visuals/Behavioral-Activation-Layer.png)
+
 ---
 
 ### C.1. AI is your Business  
