@@ -52,6 +52,11 @@ The Context Engine introduces a contextual architecture framework that **progres
 
 Rather than operating as isolated technical components, the layers function as a progressive architectural pendulum where structure, meaning, trust and intelligence evolve together across the enterprise data lifecycle.
 
+The **pendulum represents the interdependence** between contextual maturity layers: AI consumption cannot operate reliably without governance, governance depends on semantic consistency, and semantic context requires structured and interconnected data foundations underneath.
+
+As enterprise context becomes more connected, standardized and traceable, the pendulum flows more efficiently across systems, enabling AI architectures to move from isolated data consumption toward scalable contextual intelligence.
+
+
 ---
 
 #### B.1.1. Foundation Layer - Structured Data
