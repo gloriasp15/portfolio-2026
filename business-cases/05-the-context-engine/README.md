@@ -46,13 +46,53 @@ The Context Engine introduces a contextual architecture framework that **progres
 
 ![Architecture Framework - The Contextual Engine Pendulum](assets/visuals/context-pendulum.png)
 
-The model starts by transforming duplicated flat-table datasets into normalized and interconnected enterprise structures, reducing redundancy and improving consistency across entities such as customers, products, channels and transactions.
+---
 
-On top of this foundation, semantic relationships and shared contextual definitions are introduced to connect technical datasets with operational meaning and cross-domain business understanding.
+### B.1. Contextual Engine as a Pendulum
 
-The framework then incorporates technical and operational metadata layers capable of documenting schemas, dependencies, ownership structures and transformation logic, enabling end-to-end lineage and contextual traceability across enterprise systems.
+Rather than operating as isolated technical components, the layers function as a progressive architectural pendulum where structure, meaning, trust and intelligence evolve together across the enterprise data lifecycle.
 
-Finally, the contextualized architecture enables downstream AI systems to consume governed and interconnected business information through retrieval-ready structures optimized for copilots, forecasting engines, recommendation systems and AI-assisted decision-making.
+---
 
-Rather than treating AI enablement as a modeling challenge alone, the Context Engine positions contextual intelligence as the foundational infrastructure behind scalable enterprise AI systems.
+#### B.1.1. Foundation Layer - Structured Data
+
+The first contextual layer focuses on **transforming fragmented and duplicated flat-table datasets into normalized and interconnected** enterprise structures.
+
+Traditional flat-table architectures typically repeat business entities such as customers, products or channels across transactional rows, creating redundancy, inconsistent definitions and limited scalability for AI systems.
+
+The Structured Data layer reorganizes enterprise information into **reusable entities and relational structures** capable of supporting contextual reasoning and cross-domain interoperability.
+
+The objective is not only technical normalization, but the creation of a stable structural foundation capable of supporting semantic enrichment and AI consumption downstream.
+
+---
+
+#### B.1.2. Meaning Layer - Semantic Context
+
+The Semantic Context layer connects **technical datasets with operational understanding** through shared definitions, contextual relationships and reusable business logic.
+
+Instead of treating data as isolated attributes, the framework establishes **semantic connections** between entities, enabling AI systems to interpret business relationships with greater consistency and contextual understanding.
+
+This layer creates a **shared enterprise language consumable** across analytics, reporting and AI systems.
+
+---
+
+#### B.1.3. Trust Layer - Governed Metadata
+
+The Governance & Metadata layer introduces the operational trust mechanisms required for explainable and scalable enterprise AI.
+
+This layer centralizes **technical and operational metadata structures** capable of documenting schemas, dependencies, ownership models, transformations and contextual attributes across enterprise systems.
+
+By enabling **end-to-end lineage and traceability**, the framework improves visibility into how enterprise information is created, transformed and consumed throughout the data lifecycle.
+
+Metadata evolves from static documentation into contextual infrastructure supporting explainability, reliability and AI governance.
+
+---
+
+#### B.1.4. Intelligence Layer - AI Consumption
+
+The final contextual layer enables AI systems to consume interconnected and governed enterprise intelligence through **retrieval-ready architectures**. Rather than exposing AI models directly to fragmented raw datasets, the framework delivers contextualized information optimized for reasoning, retrieval and decision support.
+
+This layer supports **downstream enterprise AI capabilities** such as copilots, forecasting engines, recommendation systems and contextual retrieval architectures.
+
+The objective is to improve AI explainability, interoperability and trustworthiness through contextualized enterprise intelligence rather than isolated transactional data.
 
