@@ -30,3 +30,7 @@ e-commerce and broader operational contexts.
 - **AI Champions Flywheel**  
   Driving AI adoption across teams by embedding AI into daily workflows
   through a structured enablement model
+
+- **The Context Engine**
+   Breaking down data silos through enabling a semantic context layer
+   for business-IT-operations alignment
