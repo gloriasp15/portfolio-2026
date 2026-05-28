@@ -39,10 +39,12 @@ While traditional analytics workflows can tolerate partial inconsistencies, AI s
 
 The Context Engine introduces a contextual architecture framework that **progressively transforms fragmented enterprise data into AI-ready intelligence** through four interconnected maturity layers:
 
-**1. Structured Data**
-**2. Semantic Context**
-**3. Governance & Metadata**
-**4. AI Consumption**
+1. Structured Data
+2. Semantic Context
+3. Governance & Metadata
+4. AI Consumption
+
+![Architecture Framework - The Contextual Engine Pendulum](assets/visuals/context-pendulum.png)
 
 The model starts by transforming duplicated flat-table datasets into normalized and interconnected enterprise structures, reducing redundancy and improving consistency across entities such as customers, products, channels and transactions.
 
